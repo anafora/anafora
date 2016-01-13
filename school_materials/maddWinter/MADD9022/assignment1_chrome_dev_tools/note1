@@ -1,0 +1,109 @@
+
+Chrome Developers Tool
+
+    Features
+        Edit page elements and styles in real time
+        Debug Javascript
+        Optimize with profilers
+
+
+
+1 - Elements: working with DOMs
+
+    Elements panel
+        left side: html elements
+            right click > inspect element >> highlighting the specific element in the element tree.
+            magnifier > elements in the web >>
+
+
+            double click > change the text >> you can change the element dynamically
+            right click > edit HTML >> you can change html elements
+            drag elements on the elements >> it changes the position of the elements.
+
+2. Elements: styles view
+
+        right side: styles view
+            -display css rules for active element
+            -enable/disable properties
+            -edit rules for pseudo-classes
+            -link directly to css source
+
+            check boxes: you can disable the properties
+            erasing values or properties: you can get rid of them in the effect of css
+            >> this is very powerful for debugging
+
+            + sign: add styles
+            next to + sign: you can select the status of an element and manipulate its styles.
+                            ex) :active, :hover, :focus, :visited things like this
+
+            click the color box > color swatch, you can select the color without writing the color
+
+3. Sources: edit files directly
+
+   Sources Panel
+       - modify application source files
+       - export changes
+       - track file versions
+
+       clicking the file name in the left side will open the source code of the file
+       after changingn the code, command + S will save the code into the browswer file now the original file.
+       revert button > that reverts all the changes
+
+       right click > save as > overwrite the original file
+       right click > Local Modifications >> in history section, it shows the changes made
+                                         apply original content >> undo it.
+
+4. Console: for javascript debugging
+       - interact with your app's views and scripts
+       - run javascript commands
+       - view log output
+
+       console.log(console) > console itself is a javascript object.
+       console.assert(1 == 1); >> undefined
+       console.assert(1 == 2); >> error
+       console.warn("Watch out!"); >> you can create a warning using the console's warn method.
+
+3.2 Examining exceptions
+
+    if you click the file name, then the console will show you the line number of the error
+
+3.3 Element Selector Shortcuts
+
+    $('#idName') is a built-in function in the console. //jQuery or any library overwrites it.
+    >> you can use $('#idName') instead of document.querySelector('idName')
+
+    ex) $('#delete') >> it gives you an array. >> $('#delete')[0]
+
+    inspect($('#delete')[0]): grab an element from a page and figure out where it is.
+    $0: the last history of the DOM selection
+
+    $0.remove(); >> it removes the DOM thing.
+
+4.1 Debugging JavaScript
+4.2 Pause on Exception
+
+    an error occurred > how can we confirm where this error comes from?
+
+    in the top right, there is a pause icon(circular)
+    > paused >> when hovering each variable, you can see its value.
+
+    minifying your javascript: will make it load more quickly in your browser,
+    but it will also make it more difficult to debug >> {} icon at the bottom will make the code
+    more readable.
+
+    hit the pause button again > when the error happens, it will lead you to the part where the exception
+    occurs.
+
+    breakpoint clicked > it will pause on that line
+
+    |> : resume button
+    ->
+    .  : step over button > steps over to the next line code.
+    |
+    v  : step into button > goes down to whatever function being called on that line.
+    A
+    |  : step out button >
+
+
+
+

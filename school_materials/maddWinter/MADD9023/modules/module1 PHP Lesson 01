@@ -1,0 +1,28 @@
+
+Module1 - PHP Lesson 01
+
+  Introduction to PHP
+
+    PHP: a server-side programming language that allows you to develop applications on a web server
+         that are able to dynamically deliver content to a web browser or mobile application.
+         // a site can use an index.php file instead of index.html
+
+    Using index.html - the server responds by sedning the single static index.html to the client's browser
+                      to be viewed when the client makes a request for your index.html
+
+    Using index.php  - you can choose to write blocks of logic that will determine what content is shown
+                      dynamically, every time the file is requested.
+
+                      With a request from a client to the URL hosting your php file, the host server executes
+                      the code in your php file. >> when different users access to your index.php, they can be
+                      served content unique to their experience at that time.
+
+    Every block of PHP code must be wrapped inside of <?php and ?>
+
+        When someone requests your PHP page, the server runs through your PHP file, top-to-bottom, compiling the response, and sends it back to the client. Most of the time PHP is used to build web pages.
+
+        In this class, the code in your PHP file will need to generate a response string that has been formatted like HTML code so it can be interpreted by a web browser. In other classes you will be writing applications that make HTTP-requests to a PHP script, which in return might send back a JSON or XML response - how you format the response is up to you as the back-end developer.
+
+        // PHP builds the (HTML) response on the server before it is sent to the client's browser to be interpreted as HTML.
+
+        PHP pages can contain pure HTML code; however, it must be written outside of the blocks of PHP code. Within the blocks of PHP code, you can use a function called echo() to inject text into the response being built for the client's browser.
