@@ -1,0 +1,119 @@
+
+Array
+
+Heterogeneous array:
+    a mixture of data types, like so:
+
+    ex)
+    var mix = [42, true, "towel"];
+
+
+    // you can make a two-dimensional array by nesting arrays one layer deep, like so:
+
+        ex)
+        var twoDimensional = [[1, 1], [1, 1]];
+
+    // you may have three elements in the first row, one element in the second row, and two elements in the third row.
+       JavaScript allows those, and they're called jagged arrays.
+
+
+Object
+
+    Two ways to create an object:
+        1. using object literal notation (which is what you just did) and
+        2. using the object constructor.
+
+            1. Literal notation: just creating an object with curly braces, like this
+
+                var myObj = {
+                    type: 'fancy',
+                    disposition: 'sunny'
+                };
+
+                var emptyObj = {};
+
+            2. Object constructor
+
+                var myObj = new Object();
+
+                // This tells JavaScript: "I want you to make me a new thing, and I want that thing to be an Object.
+
+            // You can add keys to your object after you've created it in two ways:
+
+                myObj["name"] = "Charlie";
+                myObj.name = "Charlie";
+
+
+
+            Codecademy example
+
+                var friends = {};
+
+                friends.bill = {
+                    firstName:"Bill",
+                    lastName:"Gates",
+                    number: "1111111",
+                    address: ['one', 'two']
+                    };
+                friends.steve = {
+                    firstName:"Steve",
+                    lastName:"Jobs",
+                    number: "12323",
+                    address: ['one', 'two']
+
+                    };
+
+                function list(friends) {
+
+                    for(var key in object) {
+                            console.log(friends);
+
+                        }
+
+                    }
+
+                var friends = {};
+                friends.bill = {
+                  firstName: "Bill",
+                  lastName: "Gates",
+                  number: "(206) 555-5555",
+                  address: ['One Microsoft Way','Redmond','WA','98052']
+                };
+                friends.steve = {
+                  firstName: "Steve",
+                  lastName: "Jobs",
+                  number: "(408) 555-5555",
+                  address: ['1 Infinite Loop','Cupertino','CA','95014']
+                };
+
+                var list = function(obj) {
+                  for(var prop in obj) {
+                    console.log(prop);
+                  }
+                };
+
+                var search = function(name) {
+                  for(var prop in friends) {
+                    if(friends[prop].firstName === name) {
+                      console.log(friends[prop]);
+                      return friends[prop];
+                    }
+                  }
+                };
+
+                list(friends);
+                search("Steve");var obj = {a:1, b:2, c:3};
+
+                                for (var prop in obj) {
+                                  console.log("obj." + prop + " = " + obj[prop]);
+                                }
+
+                                // Output:
+                                // "obj.a = 1"
+                                // "obj.b = 2"
+                                // "obj.c = 3"
+
+
+for(var prop in obj) {
+  console.log(prop);
+}

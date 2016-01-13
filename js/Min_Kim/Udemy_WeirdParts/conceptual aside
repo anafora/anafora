@@ -1,0 +1,1289 @@
+Conceptual Aside
+    Types and Javascript
+    - types of data javascript holds, how javascript deals with them.
+
+    How javascript deals with types : Dynamic Typing
+        Dynamic Typing:
+            you don't tell the engine what type of data a variable holds,
+            it figures it out while your code is running.
+
+            Variables can hold different types of values because it's all
+            figured out during execution.
+
+            * Java uses different type called, "Static Typing"
+                Static Typing: you tell the engine and a compile ahead of time,
+                what kind of data you intend to hold inside the variable.
+
+                bool isNew = 'hello'; // an error
+
+                (keyward-holding boolean value: either true or false)
+                Therefore, when 'hello' is assigned into 'isNew', it gives an error.
+                Why? 'hello' is not boolean but string.
+
+            dynamic typing
+            ex)
+                var isNew = true; // no errors;
+                isNew = 'yup!';
+                isNew = 1;
+
+                Javascript dynamically types: it figures out on the flying.
+                >> can be powerful but also troublesome.
+===================================================================================
+                *background knowledge
+
+                Primitive Types:
+                    A type of data that represents a single value.
+                    >> something that is not an object.
+
+                        1. undefined: represents lack of existence;
+                            you shouldn't set a variable to this.
+
+                        2. null: represents lack of existence;
+                            you can set a variable to this.
+                            When you want to say the variable has no value.
+
+                        3. boolean: true or false;
+
+                        4. number: floating point number; there's always some decimals.
+                        Unlike other programmnig languages, there's only one 'number'
+                        type... and it can m ake math weird.
+
+                        5. String: a sequence of characters(both '' and "" can be used)
+
+                        6. Symbol: used in ES6
+===================================================================================
+Conceptual Aside
+    Operators
+
+    Operator: a special function that is syntactically (written) differently.
+        Generally, operators take two parameters and return one result.
+
+        var a = 3 + 4;
+
+        +3 4: prefix notation;
+        3 4+: postfix notation;
+        3 + 4: infix notation; >> very human readable.
+===================================================================================
+
+    Operator Precedence and Associativity
+
+        Operator Precedence: which operator function gets called first.
+            functions are called in order of precedence (HIGHER precedence winds).
+
+        Associativity: what order operator functions get called in: left-to-right or
+            right-to-left
+
+            when functions have the same precedence.
+
+            ex)
+                var a = 3 + 4 * 5;
+                console.log(a);
+
+                which one gets called in first?
+                : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence
+
+                operator with higher number precedence is called first. (in the link or attached file)
+===================================================================================
+
+Conceptual Aside
+
+    Coercion: converting a value from one type to another.
+
+    var a = 'hello' + 'world';
+    console.log(a);
+
+    what if we put two different types with an operator?
+
+    var a = 1 + '2';
+    console.log(a); >> '12'
+    but 1 is coerced as a string.
+
+    number 1 and string 1 are nothing alike.
+    >> Coercion is a part of Javascript itself.
+
+
+===================================================================================
+
+    Comparison Operators
+        1. > > >
+
+            3<2<1 //true
+            1<2<3 //true
+
+            why?
+
+            the document no. 11 'less than' operator : left to right
+            Therefore, 3<2 is recognized first >> 3<2 = false = converted to a number 0.
+                        0 < 1 => true
+
+            1 < 2: true = 1;
+            1 < 3: true;
+
+            number(true) = 1;
+            number("3") = 3;
+            number(undefined) = NaN;
+            number(null) = 0;
+
+            >> coercion is very powerful but dangerous because of these things
+
+        2. ...==...
+
+            3 == 3 : true;
+            false == 0 : true;
+            var a = false; a == 0: true;
+            null == 0: false;
+            null < 1: true;
+            "" == 0: true;
+            "" == false: true;
+
+            >> These are the negative part of the language that causes confusion.
+
+            ******Therefore we get ...===...
+
+        3. ...===...
+
+            3 === 3: true
+            "3" === "3": true
+            "3" === 3: false
+
+
+        >> more than 99% use the '===', == only if you are aware of the occasions.
+
+Look for the table provided by the instructor.
+
+===================================================================================
+
+    Existence and Booleans
+        Boolean(undefined) = false
+        Boolean(null) = false
+        Boolean("") = false
+        Boolean(0) = false, still false.
+
+        Boolean("hi") = true
+
+            var a;
+
+            // goes to internet and looks for a value
+
+            if (a) {
+                console.log('something is there');
+            } else {
+                console.log('something is not there');
+            }
+
+        if () {true block} else {false block}
+
+        Therefore, when a is undefined, it is interpreted as "false". Hence it is not running the true block.
+
+            a = 0; //still false
+
+            if (a || a === 0)
+                // === is higher ||, therefore a === 0: true,
+                // a || true >> false || true
+
+===================================================================================
+
+
+    Default Values
+
+        function greet(name) {
+            console.log(name);
+            console.log('Hello' + name);
+
+        }
+
+        greet();
+
+            result >> undefined, Hello undefined.
+
+                why? because those are default values.
+                in ES6, you can set the default values.
+
+
+        function greet(name) {
+
+            name = name || '<Your name here>';
+            console.log('Hello' + name);
+        }
+
+        greet();
+
+            in any other languages, you should write it this way;
+                if (name) {
+                    name = '<Your name here>'
+                }
+            However, in Javascript, it can be written more shortly.
+
+            undefined || 'hello': 'hello'
+            name = name || '<Your name here>';
+
+            *******|| has higher precedence than =;
+
+        greet('Tony');
+                >> name = 'Tony' || '<Your name here>';
+                   name = {'Tony', '<Your name here>'};
+                   name becomes 'Tony' as it is the first element of the set.
+        ----------------------------------------------------------------------------------
+                >> name = undefined || '<Your name here>'
+                        = '<Your name here>';
+
+                "hi" || "hello" : A = {"hi", "hello"};
+                    it returns the first value. A[0];
+                    Therefore, "hi" || "hello" = 'hi';
+
+                0 || 1 >> 1
+                null || "hello" >> "hello"
+                "" || "hello" >> "hello"
+
+===================================================================================
+
+Framework Aside
+    Default values
+
+    Default values
+
+        html
+
+            script lib1.js
+            script lib2.js
+            script console.js
+        html
+
+        >>stacking codes on top of each other and running them all.
+
+        In lib1.js
+            var libraryName = "lib 1";
+        In lib2.js
+            var libraryName = "lib 2";
+        In console.js
+            console.log(libraryName);
+
+        Result >> lib 2
+
+        >> all the variables behave as global variables.
+
+
+        if
+            In lib2.js
+                window.libraryName = window.libraryName || "lib 2";
+
+                    >> || is higher than =
+                       if there was previously value for libraryName, then it becomes {the value, "lib 2"}.
+                       Therefore, the first element of the set is chosen. However, if not, "lib 2" is chosen.
+
+===================================================================================
+
+4. Objects and Functions
+    Objects and the dot
+
+    object can have primitive: "property", object: "property", and function: "method"
+    they sit in computer memories.
+
+    var person = new Object();
+    person["firstname"] = "Tony"; // primitive > property
+                                  //[]: computed member access - left to right
+    person["lastname"] = "Alicea";
+
+    var firstNameProperty = "firstname";
+    console.log(person);   // object
+    console.log(person[firstNameProperty]);   //Tony
+
+    console.log(person.firstname);   //Tony
+
+        [] operator
+        . operator //member access
+
+    person.address = new Object();
+    person.address.street = "111 street";  // left to right
+
+    .operator is recommended.
+
+===================================================================================
+
+    Objects and other literals
+
+        var person = {}; is same with new Object();
+
+        var person = { firstname: 'Tony', lastname: 'Alicea'};
+
+        same with
+            person = new Object();
+            person.firstname = 'Tony';
+            person.lastname = 'Alicea';
+
+
+    function greet(person) {
+        console.log('Hi' + person.firstname);
+    }
+
+
+
+    greet({
+        firstname: 'Mary',
+        lastname: 'Doe'
+    });
+
+    Tony.address2 = {
+        street: '333 second st'
+    }
+
+    all these things are possible because things we write are processed under the hood by Javascript Engine.
+
+===================================================================================
+Section 4 - lecture 32.
+
+Framework Aside
+    Faking Namespaces
+
+        In another language but not in Javascript
+
+        Namespace: a container for variables and functions; typically to keep variables and functions with
+        the same name space. (?)
+
+        var greet = 'Hello!';
+        var greet = 'Hola!';
+
+        console.log(greet) >> Hola! because it is overwritten.
+
+        but what if greets are in the seperate js file?
+
+        *Fake Namespace means that in Javascript, there is no namespace feature, but we can use objects as
+        a container. Therefore, it is a fake namespace
+
+        var english = {};
+        var spanish = {};
+        //containers
+
+        english.greet = 'Hello!';
+        spanish.greet = 'Hola!';
+
+
+
+===================================================================================
+    JSON and Object Literals(needs to be understood better)
+
+    var objectLiteral = {
+        firstname: 'Mary',
+        isAProgrammer: true
+    }
+
+    xml was wasting a lot of data, so people deciede to use,
+    {
+        firstname: 'Mary',
+        isAProgrammer: true
+    }
+
+    JSON.stringify(objectLiteral);
+        >> '{ "firstname": "Mary", "isAProgrammer": true }'
+            different formats.
+
+    var jsonValue = JSON.parse('{ "firstname": "Mary", "isAProgrammer": true }');
+
+===================================================================================
+
+    Functions are objects
+
+    first class functions: everything you can do with other types -objects, strings,
+    booleans- you can do with functions.
+
+    Assign them to variables
+
+
+
+    Function: a special type of object
+
+        primitive, object, function can be attached to a function because it is an object
+        + name(optional)
+        + code(invocable)
+
+        function greet() {
+            console.log('hi');
+
+        }
+
+        greet.language = 'english';
+
+        just added a property to a function.
+        console.log(greet); is a merely text of the function
+        console.log(greet.language) = english
+
+===================================================================================
+section 4 - lecture 35
+
+    Function Statements and Function Expressions (needs to be understood better)
+
+        Expression: a unit of code that results in a value; it doesnt have to save a variable.
+
+            var a;
+
+            a = 3;
+            = returns the value. therefore output is 3.
+
+            1 + 3; is also returning value so its output is 3.
+
+            var a;
+
+            if (a === 3) {
+
+            }
+
+            if is a statement. therefore var b = if ~~ is not possible.
+
+            function greet() {
+                console.log('hi');
+            } // it is a statement.
+
+            greet();
+
+            function greet() {
+
+            } or greet(); later the definition of the function works either way because these statements
+            are already saved.
+
+
+            However,
+
+
+
+
+
+**            function expression
+
+                    var anonymousGreet = function () {
+                        console.log('hi');
+                    }
+
+                    // function = name(anonymous) + code(console.log);
+
+                    anonymousGreet();
+
+                    in this case function() {} is expression.
+
+                    anonymousGreet();
+
+                    var anonymousGreet = function() {
+
+                    } does not work.
+
+                    function log(a) {
+                    console.log(a);
+                    }
+
+                    log(3); //3
+                    log("Hello") //Hello
+                    log({
+                        greeting: 'hi'
+                    }) // Object: { greeting: 'hi' }
+
+                    log(functino() {
+                        console.log('hi');
+                    }) // functino() {
+                                        console.log('hi');
+                                     }
+
+                                     >> you can pass a function to a function.
+
+                    function log(a) {
+                        a();
+                    }
+
+                    log(functino() {
+                                            console.log('hi');
+                    }) // hi
+
+===================================================================================
+
+Conceptual Aside
+    By value VS By reference
+
+    By Value
+        primitive values(?) : number, string, boolean
+
+        a = 5;
+        b = a; copy of primitive value.
+        puts into a different memory space
+
+        ex)
+            var a = 3;
+            var b;
+            b = a; //sitting in two spots of memory
+
+            if,
+
+                var a = 3;
+                var b;
+                b = a; //sitting in two spots of memory
+
+                a = 2;
+                console.log(b); //3
+                console.log(a); //2 because now the b has its own memory space with the same value
+                with the initial value of a. However, later, the value of a changed.
+
+
+    By reference
+
+        object
+
+        a = 5
+        b = a puts into the same memory space
+
+        ex) 1.
+
+                var c = { greeting: 'hi' };
+                var d;
+
+                d = c; //just because it is an 'object', there are placed into the same spot.
+                c.greeting = 'hello'; //mutated the object
+                            *mutate: to change something. immutable means it can't be changed
+                console.log(c); // { greeting: 'hello' }
+                console.log(d); // { greeting: 'hello' }
+
+            2.
+                var c = { greeting: 'hi' };
+                var d;
+
+                d = c;
+
+                d.greeting = 'hello';
+                console.log(c);
+
+                function changeGreeting(obj) {
+                    obj.greeting = 'Hola'; // mutate
+                }
+
+                changeGreeting(d);
+                console.log(c); // { greeting: 'Hola' }
+                console.log(d); // { greeting: 'Hola' }
+
+                // equals operator sets up a new memory space(new address)
+
+                c = { greeting: 'howdy' };
+                    //placing it into a new memory space. so no longer gets the same reference.
+                      but d still keeps the previous reference.
+
+                console.log(c); // 'howdy'
+                console.log(d); // 'Hola'
+
+===================================================================================
+
+    Objects, Functions, and 'this'
+
+    When a function is run
+        a new execution Context is created: creation phase.
+
+        each execution context has - variable environment(variables withini the function) and outer environment(global).
+        Javascript engine creates 'this' every time it runs.
+
+          ex)
+            console.log(this); // window = global object at this point
+
+            function a() {
+              console.log(this);
+            }
+
+            a(); // it is also window object. It still points the window object.
+
+            var b = function() {
+              console.log(this);
+            }
+
+            b(); // still window object
+
+
+            function a() {
+              console.log(this);
+              this.newvariable = 'hello';
+            }
+
+            a(); // then this function has created another variable within the function. This is so cool.
+
+            var c = {
+              name: 'The c object',
+              log: function() {
+                this.name = 'Undated c object'; // 'this' belongs to the object. Not a global any more(not the window).
+                console.log(this);
+
+                var setname = function(newname) {
+                  this.name = newname; // but here it is not supposed to be the window but it's the window(JS bug)
+                }
+                setname('Updated again! The c object');
+                console.log(this);
+
+              }
+            }
+
+            c.log();
+
+            How to fix this mess???
+                >> create another variable called 'self' in the first line of the function
+
+            var c = {
+              name: 'The c object',
+              log: function() {
+                var self = this;
+                self.name = 'Undated c object'; // 'this' belongs to the object. Not a global any more.
+                console.log(self);
+
+                var setname = function(newname) {
+                  self.name = newname;
+                }
+                setname('Updated again! The c object');
+                console.log(self);
+
+              }
+            }
+
+            in the above code, we replaced this with self, which targets only the 'this' within the object c.
+            Therefore, it will also target this within c even inside the function.
+
+            >> not every language is perfect. This is one of the downside of Javascript.
+               Internal functions have problems.
+
+            c.log();
+
+===================================================================================
+Conceptual Aside
+    Collection of anything: array
+
+    var arr = new Array();
+            = [];
+    var arr = [1, 2, 3];
+    arr[i] i = 0, 1, 2;
+
+        var arr = [
+            1,
+            false,
+            {
+                name: 'Tony',
+                address: '111 Main St.'
+            },
+            function(name) {
+                var greeting = 'hello';
+                console.log(greeting + name);
+            },
+            "hello"
+        ];
+
+        console.log(arr); //result:  >[1, false, object, function, "hello"] >> number, boolean, object, function, string
+        >> whole collection of anything!
+
+        arr[3](arr[2].name); // HelloTony >>Dynamic typing!
+
+===================================================================================
+    'arguments' And Spread
+
+    Execution context is created(function)
+    >> variable environment, this, outer environment
+    + 'argument'
+
+     argument contains a list of all values and all the parameters that you passed to a function.
+       *argument: the parameters you pass to a function. Javascript gives you a keyword of the same name which contains
+       them all.
+
+         function setName(name) {
+         } //name: argument=parameter.
+
+         ex)
+           function greet(firstname, lastname, language) {
+             console.log(firstname);
+             console.log(lastname);
+             console.log(language);
+
+           }
+
+           greet(); // result will be all undefined >> hoisting. In another languages, it will happen to have errors
+                                                       if there is no parameter passed.
+
+           function greet(firstname, lastname, language) {
+
+             language = language || 'en'; // it sets default value as something other than undefined if there is
+                                             no parameter passed to the function.
+
+             console.log(firstname);
+             console.log(lastname);
+             console.log(language);
+
+           }
+
+           In ES6, it will be possible to set the default value in the parameter. However, it is not valid yet in the
+           current javascript. >> "Default Parameter"
+
+            function greet(firstname, lastname, language = 'en') {
+
+              console.log(firstname);
+              console.log(lastname);
+              console.log(language);
+
+            }
+
+            console.log(argument); // if written within the the function, it shows every parameter:
+                                      ["John", "Doe", "es"] in the form of array.
+
+            function greet(firstname, lastname, language = 'en', ...others) {
+
+            }
+
+            greet(a, b, c, d, e, f); // d, e, f will be stored as "others" in the argument array.
+
+
+
+
+
+
+
+
+
+
+
+           function greet(firstname, lastname, language) {
+
+             language = language || 'en'; // it sets default value as something other than undefined if there is
+                                             no parameter passed to the function.
+
+             if(argument.length === 0) {
+               console.log('missing arguments!');
+               console.log('-------------')
+             }
+
+             console.log('arg 0: ' + argument[0]); // John when called with John.
+
+             console.log(firstname);
+             console.log(lastname);
+             console.log(language);
+
+           }
+
+
+===================================================================================
+Section 4 - lecture 40
+Frame Aside
+    Function overloading
+
+    function greet(firstname, lastname, language) {
+
+        language = language || 'en';
+
+        if(language === 'en') {
+            console.log('hello' + firstname + '' + lastname);
+
+        }
+
+        if (l === 'es') {
+
+            console.log('h');
+        }
+
+    }
+===================================================================================
+Conceptual Aside
+    Syntax parser: reading your code and determining its validity.
+
+    r
+    e
+    t
+    u
+    r
+    n
+    ;
+
+    reading character by character
+===================================================================================
+
+Dangerous Aside
+
+    Automatic semicolon insertion
+
+    javascript putting them at where they should be, such as semicolon.
+    it can cause a big problem
+
+
+    ex)
+       function getPerson() {
+         return
+         {
+           firstname: 'Tony'
+         }
+       }
+
+       console.log(getPerson()); // result: undefined. Why? because of the automatic
+                                    semicolon insertion.
+
+                                    when javascript engine sees 'return' before '{', it automatically
+                                    puts ';'. Therefore, it finishes by 'return;'
+
+                                    To fix it,
+
+                                    return {
+                                      firstname: 'Tony'
+                                    }
+
+
+       >> every where you would expect to have semicolon, you should put it to prevent this.
+
+===================================================================================
+
+Framework Aside
+
+  Whitespace: invisible characters that create literal 'space' in your code.
+              // Carriage returns, tabs, spaces
+
+              JS syntax parser is very liberal about what it allows when it comes to whitespace
+
+              ex)
+
+                 var
+                 firstname,
+
+                 //ewfewfewfwf
+
+                 lastname,
+
+                 //wefewfewfew
+                 language;
+
+                 //wefewfewf
+
+                 var person = {
+                   firstname: 'John',
+
+                   //efwfewfewf
+
+                   lastname: 'Doe'
+                 }
+
+                 console.log(person);
+
+                 All these are possible because JS is very liberal with whitespace.
+
+
+===================================================================================
+
+  Immediately invoked function expression - IIFEs
+
+    difference between function statement and function expression
+
+    function statement happens when new statement or the function is after semicolon
+    ex)
+       function greet(name) {
+         console.log('Hello ' + name);
+       } // statement
+
+       greet('John');
+       //the statement does not occur until it's called
+
+       var greetFunc = function(name) {
+         console.log('Hello ' + name);
+       }; // this is an expression. This is not put into the memory initially. However, during execution,
+            when it hits this line, it creates this function object on the fly
+
+       greetFunc('John');
+
+       var greeting = function(name) {
+         console.log('Hello ' + name);
+       }(); // function(name) {console.log('Hello ' + name);} : this part is a function object.
+               (); : it invokes the function immediately after
+
+               >> using an immediately invoked function expression (IIFE).
+
+       var greeting = function(name) {
+         return 'Hello ' + name;
+       }();
+
+       console.log(greeting); // Hello undefined >> why undefined? because there is no parameter.
+
+       var greeting = function(name) {
+         return 'Hello ' + name;
+       }('John');
+
+       console.log(greeting); // Hello undefined >> why undefined? because there is no parameter.
+
+
+  3; //valid. no error. it does not store anything into anywhere. but it just stands there
+  "I am a string"; // same here
+  {
+    name: 'Jone'
+  } // still valid. nothing.
+
+  function(name) {
+    return 'Hello' + name;
+  } // result: unexpected token ( >> because it is after ';', it is a statement; it can't be an anonymous function.
+                                     function statement starts with 'function'
+
+                                     Then how you make it possible? you wrap it!
+
+                                     (function(name) {
+                                        return 'Hello' + name;
+                                     }); // just like (3 + 4); returns a value. Therefore, there is no error.
+                                            There is a valid function just sitting there, doing nothing.
+
+
+                                     var firstname = 'John';
+
+                                     (function(name) {
+                                        var greeting = 'Inside IIFE: Hello';
+                                        console.log( greeting + ' ' + name);
+                                     }(firstname));
+                                                    // just trick the syntax parser.
+                                                       result: Inside IIFE: Hello John.
+
+
+                                                    >> Classic exmaple of IIFE. VERY USEFUL TOOL for javasctipt
+                                                       development. Typical form in every javascript library.
+
+
+                                                    (function(name) {
+                                                       var greeting = 'Inside IIFE: Hello';
+                                                       console.log( greeting + ' ' + name);
+                                                    })(firstname); // it works the same way!
+
+
+===================================================================================
+Framework Aside
+    IIFES and Safe code
+
+        (function(name) {
+           var greeting = 'Hello';
+           console.log( greeting + ' ' + name);
+        }('John')); // IIFE
+
+            execution stack:
+                            global execution context
+
+
+                            when the engine hits that immediately invoked function line, it gets to the function
+                            expression part. Then, now it creates that function object in the memory. It is anonymous
+                            and then it sees (parameter), which actually invokes the function
+
+                                                                        >> execution context[()]
+                                                                           then it reads the lines inside the block.
+                                                                           all the variables, such as greeting, sit
+                                                                           inside this current execution context,
+                                                                           not touching global variables.
+
+                                                                           >> very useful in writing code
+                                                                                     |
+                                                                                     |
+                                                                                     |
+                                                                                     |
+                            ----------------------------------------------------------
+                            |
+                            |
+                           \|/
+                            Y
+                            ex)
+
+                            html
+                              body
+                                script greet.js
+                                script app.js
+                              body
+                            html
+
+                            In greet.js
+
+                                var greeting = "Hola";
+
+                            In app.js
+
+                                (function(name) {
+                                   var greeting = 'Hello';
+                                   console.log( greeting + ' ' + name);
+
+                                }('John')); // IIFE
+
+                            They are stacked on top of each other.
+                            There are two greetings in the js files.
+
+                            result: Hello John // because when the iife is fired, greeting is used with the value
+                                                  declared within the function. Therefore, 'Hello~~~'
+
+                            However, if,
+
+                                (function(name) {
+                                   var greeting = 'Hello';
+                                   console.log( greeting + ' ' + name);
+                                }('John')); // IIFE
+
+                   ***********  console.log(greeting); ************
+
+                            result: Hola
+
+                            Let's look at the execution contexts
+
+                            var greeting = 'Hola';
+                       ---> ---------------------- stack
+                            (function(name) {
+
+                              var greeting = 'Hello';
+                              console.log(greeting + ' ' + name);
+
+                            })('John');
+                       ---> ---------------------- stack
+
+                       When it's run, the first line is executed.
+
+                       Global Execution Context[
+                         greeting: 'Hola'
+                       ]
+
+                       And then, the iife is fired, execution context is created
+
+                       () Execution Context[
+                         (for the anonymous function)
+                         greeting: 'Hello'
+                       ]
+
+                       both of those exist. But separate areas of memories; separate address.
+                       I've ensured that my code, by wrapping it in, the immediately invoked function does not
+                       interfere with any other code that might be included in my application.
+
+                       >> In a great deal of libraries and functions, the very first thing you will see at the
+                          top is parenthesis and at the end of it because it wraps all the code in an immediately
+                          invoked function.
+
+
+
+    Therefore, by doing the way described above, we can make sure that things do not interfere with global
+    objects.
+
+    However, what if we wanted to?
+    >>we can handle that by passing around a parameter. Pass by reference.
+
+        (function(global, name) {
+
+           var greeting = 'Hello';
+           global.greeting = 'Hello'; //that overwrites the Hola, which is saved as a global object from the first js file.
+           console.log( greeting + ' ' + name);
+
+        }(window, 'John')); // IIFE
+
+        console.log(greeting);
+
+===================================================================================
+Understanding Closures
+    'Closures' is a vital thing to undestand for advanced javascript.
+
+    ex)
+
+    function greet(whattosay) {
+
+      return function(name) {
+        console.log(whattosay + ' ' + name);
+      }
+
+    }
+
+    greet('hi') // this returns a function, then how to invoke it?
+    >> greet('hi')('Tony');
+
+    function greet(whattosay) {
+
+      return function(name) {
+        console.log(whattosay + ' ' + name);
+      }
+
+    }
+
+    var sayHi = greet('Hi'); // sayHi will be returned as a function.
+    sayHi('Tony'); // still works.
+
+    Question: how does the 'sayHi' function still know the 'whattosay' variable? because it is supposed to be
+              over when the 'greet' function is over. How is it possible?
+              >> Closures make it possible.
+
+
+    ----------Closure----------------------------------
+    |                                                 |
+    |   ------()---------------------------------     |
+    |   |   'sayHi' Execution Context           |     |
+    |   |                        name           |     |
+    |   |                       'Tony'          |     |
+    |   |                                       |     |
+    |   |_______________________________________|     |
+    |                                                 |
+    |                                    whattosay : from greet() execution context. sayHi still has a reference to
+    |                                         'Hi'    | the variable in the memory space of its outer environment.
+    |_________________________________________________| In other words, even though the 'greet' function was finished,
+                                                        any function created inside of it, when they are called, will
+                                                        still have reference to that greet function's memory.
+
+                                                        >> JS makes sure that you can still go down to the memory and
+                                                           find it. : Closures.
+
+
+===================================================================================
+Understanding Closures - 2
+
+    ex)
+    function buildFunctions() {
+        var arr = [];
+
+        for (var i = 0; i < 3' i++) {
+            arr.push(
+                function() {
+                    console.log(i);
+                }
+            )
+        } // three times of adding an identical function
+
+        return arr;
+    }
+
+    var fs = buildFunctions();
+
+    fs[0]();//3
+    fs[1]();//3
+    fs[2]();//3
+
+    Why are they all 3?
+
+
+    function buildFunctions() {
+        var arr = [];
+
+        for (var i = 0; i < 3' i++) {
+            arr.push(
+                function() {
+                    console.log(i);
+                }
+            )
+        } // three times of adding an identical function
+
+        return arr;
+    }
+    var fs = buildFunctions();
+    fs[0]();//3
+    fs[1]();//3
+    fs[2]();//3
+
+
+    global execution context
+            : buildFunctions(), fs
+    buildFunctions() execution context
+            : two variables - i, arr
+
+                    i=0, console.log(i) pushed
+                    i=1, console.log(i) pushed
+                    i=2, console.log(i) pushed
+                    i=3, i > 3 therefore, false. It breaks the for loop.
+
+                    when it hits the 'return arr;',
+
+                    i : 3
+                    arr: [f0, f1, f2] // three functions in the array - anonymous
+
+                    buildFunctions pops up from the stack, but i and arr still hang around.
+
+                    fs[0](); run
+
+                        fs[0]() execution context
+                          scope is changed. so it tries to find the reference outer environment.
+                          i = 3, therefore console.log(3).
+
+                        fs[1]() execution context
+                          it looks for i, which is held as 3 from the build function
+
+                        fs[2]() execution context
+                          i = 3
+
+                        these three are children of the build function.
+
+                        i is 3 by the time you call the function.
+
+
+
+
+    function buildFunctions2() {
+
+        var arr = [];
+
+        for (var i = 0; i < 3' i++) {
+            let j = i; // every time the for loop runs the j will be a new variable
+            arr.push(
+                function() {
+                    console.log(j);
+                }
+            )
+        }
+
+        return arr;
+    }
+    var fs2 = buildFunctions2();
+    fs2[0]();
+    fs2[1]();
+    fs2[2]();
+
+    let j = i; // every time the for loop runs the j will be a new variable
+    >> to do the same job,
+
+        function buildFunctions2() {
+            var arr = [];
+
+            for (var i = 0; i < 3; i++) {
+                arr.push(
+                    (function(j) {
+                        return function() {
+                            console.log(j);
+                        }
+
+                    }(i))
+                )
+            }
+
+            return arr;
+        }
+
+        var fs2 = buildFunctions2();
+
+        fs2[0](); //0
+        fs2[1](); //1
+        fs2[2](); //2
+
+===================================================================================
+
+Framework Aside
+    function factories : using the fact that closures exist in javascript.
+
+    function makeGreeting(language) {
+        return function(firstname, lastname) {
+
+        if (language === 'en') {
+            console.log('Hello' + firstname + ' ' + lastname);
+        }
+
+        if (language === 'es') {
+            console.log('Hola' + firstname + ' ' + lastname);
+        }
+
+        }
+    }
+
+    var greetEnglish = makeGreeting('en');
+    var greetSpanish = makeGreeting('es');
+
+
+
+
+
+
+
+
+
+
+
+
+http://www.kijiji.ca/v-room-rental-roommate/ottawa/fully-furnished-room/1128113841?enableSearchNavigationFlag=true
+http://www.kijiji.ca/v-house-rental/ottawa/room-for-rent-in-barrhaven-for-january-1st-2016/1128134952?enableSearchNavigationFlag=true
+http://www.kijiji.ca/v-room-rental-roommate/ottawa/one-furnished-bedroom-algonquin-meadowlands-for-rent/1111594168?enableSearchNavigationFlag=true
+http://www.kijiji.ca/v-room-rental-roommate/ottawa/all-inclusive-10-min-walking-distance-to-baseline-algonquin-co/1128387487?enableSearchNavigationFlag=true
+http://www.kijiji.ca/v-room-rental-roommate/ottawa/room-for-rent-march-1st-room-10-mins-from-algonquin/1128314810?enableSearchNavigationFlag=true
+http://www.kijiji.ca/v-room-rental-roommate/ottawa/all-included-near-algonquin-college/1128301509?enableSearchNavigationFlag=true
+http://www.kijiji.ca/v-room-rental-roommate/ottawa/furnished-room-at-baseline-rd-close-to-algonquin-college/1128269864?enableSearchNavigationFlag=true
+http://www.kijiji.ca/v-room-rental-roommate/ottawa/furnished-room-at-baseline-rd-close-to-algonquin-college/1128269864?enableSearchNavigationFlag=true
+
+
+
+
+
+
+
