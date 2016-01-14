@@ -19,7 +19,13 @@ Module1 - PHP Lesson 01
 
     Every block of PHP code must be wrapped inside of <?php and ?>
 
-        When someone requests your PHP page, the server runs through your PHP file, top-to-bottom, compiling the response, and sends it back to the client. Most of the time PHP is used to build web pages.
+        When someone requests your PHP page, the server runs through your PHP file, top-to-bottom, compiling the response, and sends it back to the client.
+        Most of the time PHP is used to build web pages.
+
+        your PHP page requested > from top to bottom,
+                                  the server runs through the php file,
+                                             compiles the response,
+                                             sends it back to the client
 
         In this class, the code in your PHP file will need to generate a response string that has been formatted like HTML code so it can be interpreted by a web browser. In other classes you will be writing applications that make HTTP-requests to a PHP script, which in return might send back a JSON or XML response - how you format the response is up to you as the back-end developer.
 

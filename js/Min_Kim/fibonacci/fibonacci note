@@ -1,0 +1,83 @@
+https://blog.nraboy.com/2015/01/fibonacci-sequence-printed-javascript/
+
+is to be summarized into the followings
+
+
+There are number of different languages you can accomplish this task with.
+The interviewer may even ask for a pseudo-code alternative rather than language specific.
+
+Fibonacci via Wikipedia
+
+    By definition,
+
+    the first two numbers (in the Fibonacci sequence) are
+        either
+            1 and 1,
+        or
+            0 and 1,
+        depending on the chosen starting point of the sequence,
+
+    and each subsequent number is the sum of the previous two.
+
+    1 1 2 3 5 8 13 21 34 55 89 144 233 377 610...
+
+        https://www.mathsisfun.com/numbers/fibonacci-sequence.html
+
+        > Fibonacci Sequence: the series of numbers -
+                              0, 1, 1, 2, 3, 5, 13, 21, 34
+
+                The next number is found by adding up the two numbers before it.
+                2 = 1 + 1 (adding two numbers before it)
+                3 = 1 + 2
+                5 = 2 + 3
+                .
+                .
+                .
+
+
+                The rule:
+                    Xn = Xn-1 + Xn-2;
+
+
+                The Golden Ratio:
+                    When we take any two successive Fibonacci Numbers, their ratio is very close to
+                    the Golden Ratio "φ". φ = 1.618034...
+                    ex)
+
+                    A  B    B/A
+                    2  3    1.5
+                    3  5    1.6666666666.....
+                    5  8    1.6
+                    8  13   1.625
+                    .
+                    .
+                    .
+                  144 233   1.618055556....
+                    .
+                    .
+                    .
+
+
+    How are we going to find these numbers? // two ways
+        1. with a loop
+        2. with recursion
+
+            looping
+
+                var looping = function(n) {
+                    var a = 0, b = 1, f = 1;
+                    for(var i = 2; i <= n; i++) {
+                        f = a + b;
+                        a = b;
+                        b = f;
+                    }
+                    return f;
+                };
+
+
+http://stackoverflow.com/questions/8331492/javascript-fibonacci
+https://www.codecademy.com/forum_questions/4f6b5112b0c41100030017b1
+https://books.google.ca/books?id=4RChxt67lvwC&pg=PA278&lpg=PA278&dq=when+do+you+use+fibonacci+with+javascript&source=bl&ots=th_3GhNQp6&sig=SYlVVeYuz1FMhM8Oc_Eu8Yn_-VE&hl=en&sa=X&ved=0ahUKEwjNnrWD-qfKAhWMsh4KHVp3BXk4ChDoAQgwMAQ#v=onepage&q=when%20do%20you%20use%20fibonacci%20with%20javascript&f=false
+//great book
+http://blog.javascriptroom.com/2013/01/10/fibonacci-an-introduction-to-recursion/
+http://modernjavascript.blogspot.ca/2012/10/breaking-it-down-with-algorithms-ii.html
