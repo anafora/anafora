@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d798d32-cf96-4ceb-97af-ed925b511442" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Min_Kim/fibonacci/fibonacci note" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Min_Kim/fibonacci/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Min_Kim/fibonacci/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/school_materials/maddWinter/MADD9022/assignment1_chrome_dev_tools/note1" afterPath="$PROJECT_DIR$/school_materials/maddWinter/MADD9022/assignment1_chrome_dev_tools/note1" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/school_materials/maddWinter/MADD9023/modules/module1 PHP Lesson 01" afterPath="$PROJECT_DIR$/school_materials/maddWinter/MADD9023/modules/module1 PHP Lesson 01" />
     </list>
@@ -32,17 +28,17 @@
         <entry file="file://$PROJECT_DIR$/school_materials/maddWinter/MADD9022/assignment1_chrome_dev_tools/note1">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="172" column="24" selection-start-line="172" selection-start-column="24" selection-end-line="172" selection-end-column="24" />
+              <caret line="177" column="14" selection-start-line="177" selection-start-column="14" selection-end-line="177" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="module1 PHP Lesson 01" pinned="false" current-in-tab="false">
+      <file leaf-file-name="module1 PHP Lesson 01" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/school_materials/maddWinter/MADD9023/modules/module1 PHP Lesson 01">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="33" column="68" selection-start-line="33" selection-start-column="68" selection-end-line="33" selection-end-column="68" />
+            <state vertical-scroll-proportion="0.58181816">
+              <caret line="126" column="25" selection-start-line="126" selection-start-column="25" selection-end-line="126" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -58,10 +54,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fibonacci note" pinned="false" current-in-tab="true">
+      <file leaf-file-name="fibonacci note" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/Min_Kim/fibonacci/fibonacci note">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.4">
+            <state vertical-scroll-proportion="0.0">
               <caret line="77" column="63" selection-start-line="77" selection-start-column="63" selection-end-line="77" selection-end-column="63" />
               <folding />
             </state>
@@ -93,10 +89,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/school_materials/maddWinter/MADD9022/assignment1_chrome_dev_tools/note1" />
-        <option value="$PROJECT_DIR$/school_materials/maddWinter/MADD9023/modules/module1 PHP Lesson 01" />
         <option value="$PROJECT_DIR$/js/Min_Kim/fibonacci/index.html" />
         <option value="$PROJECT_DIR$/js/Min_Kim/fibonacci/fibonacci note" />
+        <option value="$PROJECT_DIR$/school_materials/maddWinter/MADD9022/assignment1_chrome_dev_tools/note1" />
+        <option value="$PROJECT_DIR$/school_materials/maddWinter/MADD9023/modules/module1 PHP Lesson 01" />
       </list>
     </option>
   </component>
@@ -106,8 +102,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="983" />
-    <option name="width" value="457" />
+    <option name="x" value="854" />
+    <option name="width" value="586" />
     <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -152,22 +148,12 @@
               <option name="myItemId" value="anafora" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="anafora" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="anafora" />
+              <option name="myItemId" value="school_materials" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Min_Kim" />
+              <option name="myItemId" value="maddWinter" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -181,15 +167,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="school_materials" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Min_Kim" />
+              <option name="myItemId" value="maddWinter" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="fibonacci" />
+              <option name="myItemId" value="MADD9022" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -203,7 +189,29 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="school_materials" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="maddWinter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MADD9022" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assignment1_chrome_dev_tools" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="anafora" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="anafora" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -285,10 +293,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="983" y="0" width="457" height="900" extended-state="0" />
+    <frame x="854" y="0" width="586" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3119777" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3107221" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -330,22 +338,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/school_materials/maddWinter/MADD9022/assignment1_chrome_dev_tools/note1">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="172" column="24" selection-start-line="172" selection-start-column="24" selection-end-line="172" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/school_materials/maddWinter/MADD9023/modules/module1 PHP Lesson 01">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="33" column="68" selection-start-line="33" selection-start-column="68" selection-end-line="33" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/Min_Kim/fibonacci/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.875">
@@ -364,8 +356,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/Min_Kim/fibonacci/fibonacci note">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.4">
+        <state vertical-scroll-proportion="0.0">
           <caret line="77" column="63" selection-start-line="77" selection-start-column="63" selection-end-line="77" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/school_materials/maddWinter/MADD9022/assignment1_chrome_dev_tools/note1">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="177" column="14" selection-start-line="177" selection-start-column="14" selection-end-line="177" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/school_materials/maddWinter/MADD9023/modules/module1 PHP Lesson 01">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.58181816">
+          <caret line="126" column="25" selection-start-line="126" selection-start-column="25" selection-end-line="126" selection-end-column="25" />
           <folding />
         </state>
       </provider>

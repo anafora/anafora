@@ -1,5 +1,5 @@
 
-Module1 - PHP Lesson 01
+Module 1 - PHP Lesson 01
 
   Introduction to PHP
 
@@ -14,21 +14,130 @@ Module1 - PHP Lesson 01
                       dynamically, every time the file is requested.
 
                       With a request from a client to the URL hosting your php file, the host server executes
-                      the code in your php file. >> when different users access to your index.php, they can be
-                      served content unique to their experience at that time.
+                      the code in your php file.
+
+                          >> when different users access to your index.php, they can be
+                             served content unique to their experience at that time.
 
     Every block of PHP code must be wrapped inside of <?php and ?>
 
-        When someone requests your PHP page, the server runs through your PHP file, top-to-bottom, compiling the response, and sends it back to the client.
-        Most of the time PHP is used to build web pages.
-
         your PHP page requested > from top to bottom,
-                                  the server runs through the php file,
-                                             compiles the response,
-                                             sends it back to the client
+                                  the server 1. runs through the php file,
+                                             2. compiles the response,
+                                             3. sends it back to the client
 
-        In this class, the code in your PHP file will need to generate a response string that has been formatted like HTML code so it can be interpreted by a web browser. In other classes you will be writing applications that make HTTP-requests to a PHP script, which in return might send back a JSON or XML response - how you format the response is up to you as the back-end developer.
+                                  PHP is mostly used to build web pages
 
-        // PHP builds the (HTML) response on the server before it is sent to the client's browser to be interpreted as HTML.
+                                  // PHP builds the (HTML) response on the server before it is
+                                     sent to the client's browser to be interpreted as HTML.
 
-        PHP pages can contain pure HTML code; however, it must be written outside of the blocks of PHP code. Within the blocks of PHP code, you can use a function called echo() to inject text into the response being built for the client's browser.
+        To contain HTML code,
+
+            HTML has to be written outside of the PHP code blocks
+                      ex)
+                        <?php
+                            echo "<p>Hello World</p>";
+                        ?>
+                or
+
+            Within the PHP code blocks, use echo() function to write html
+
+    Similarity with Javascript - creating new HTML contents by using Javascript.
+
+          the difference: the PHP code to create the “Hello world” paragraph occurs on the web server
+                          before the page ever gets seen by the browser.
+
+                          Javascript runs locally in the browser after the page would have been loaded.
+
+                       - Using static .html, .htm, .js, and .css files,
+                                the web server receives a request for a page
+                                and immediately sends back those specific files to the browser.
+                                Each time you load that URL, you will get the exact same response.
+
+                       - With PHP and (as with other server-side languages),
+                                the web server runs your PHP script, and uses the logic within it
+                                to determine what the response is. PHP lets you generate a response
+                                containing whatever content you would like.
+
+                       In this class you will learn how to generate these unique responses to clients
+                       using a mixture of HTML, CSS and Javascript to assemble the content within the browser
+                       each time the request is made to the URL.
+
+
+        <Video>
+
+        by theNewBoston
+
+        PHP is a server-side scripting language
+
+        it is not available to view on the website by right click.
+        it has a very extensive documentation
+
+        able to combine php with database system (using mySQL)
+
+
+*** Ensure Error Reporting is on
+
+        error in php code
+            the only way to know what went wrong on the server
+             >> to have php output the error message to the browser.
+
+             // WAMP usually has this feature on, but MAMP doesn't do so by default
+
+                /Applications/MAMP/bin/php/php[newest version number]/conf/php.ini.
+                >> Near line 280, change display_errors from Off to On, save the file, and close it.
+                   Fully restart MAMP
+
+
+Module 2 - PHP Lesson 02
+
+    Housekeeping
+
+    // the only way to execute PHP script is to load it from a php-enabled web server.
+
+    root folder in MAMP: /Applications/MAMP/htdocs/
+
+        1. create a path: /Applications/MAMP/htdocs/MAD9023/L02
+        2. create a new html file. // index.php
+
+            <!DOCTYPE HTML>
+            <html>
+            <head>
+            <meta charset="utf-8">
+            <title>Untitled Document</title>
+            </head>
+
+            <body>
+            <?php
+
+                echo "<p>Hello World</p>\n";
+
+            ?>    // echo has injected <p> when the source code is viewed in the console
+            </body>
+            </html>
+
+
+    The phpinfo() function and the php.ini file location
+
+        phpinfo() function
+            : this function displays the information for php installation.
+
+            <?php
+            phpinfo();
+            > // standard notation to call the function.
+              // you must not have this line in your php code for your website >> it can ruin your computer(security).
+
+
+
+
+        php.ini file
+            : php configuration file
+                ';' as an end of a line // somewhat used to commenting out
+
+
+
+            // a lot of problems you will face may come down in the php.ini file
+
+            the path to the php.ini file will be stored on your machine
+                                        at /Applications/MAMP/bin/php/php[newest version number]/conf/ in MAMP
+

@@ -149,43 +149,21 @@ Network
                 timeline: shows when each resource was requested and when it finished downloading // over on the right side, like a little waterfall
 
 
-    To reload all the resources: hold down the shift key and refresh.
+    To reload all the resources: hold down the shift key and click refresh.
 
         // will redownload everything
         // at the bottom, you can see how long it took to download all the resources.
         // in the status column, OK means that the resources were all downloaded
 
-    When you're debugging the
-    performance of your web page,
-
-    you're going to want to disable
-    the cache, and there's
-
     To disable the cache // for debugging the performance of your web page
-        by going to the File menu and selecting New Incognito Window, which
-    will not only use a fresh
 
-    cache, but it also won't
-    use any cookies
+        1. by going to the File menu and selecting New Incognito Window,
+           >> use a fresh cache, won't use any cookies that is stored
 
-    49
-    00:02:14,900 --> 00:02:17,300
-    you may have stored.
+        2. by clicking the gear icon and opening ip the DevTools Settings
+           >> selecting the "Disable Cache check box"
 
-    50
-    00:02:17,300 --> 00:02:20,370
-    You can also go down to the
-    bottom right, click the gear
 
-    51
-    00:02:20,370 --> 00:02:23,360
-    icon, and open up the
-    DevTools Settings.
-
-    52
-    00:02:23,360 --> 00:02:28,460
-    There, you can select the
-    Disable Cache check box.
 
     53
     00:02:28,460 --> 00:02:30,350
