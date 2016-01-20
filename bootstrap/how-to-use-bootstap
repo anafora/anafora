@@ -1,0 +1,11 @@
+command line with bower
+    direct to the target folder
+    ex)
+       pwd
+       ls
+       cd Desktop
+       cd targetFolder
+
+       bower install bootstrap
+       bower install fontawesome
+

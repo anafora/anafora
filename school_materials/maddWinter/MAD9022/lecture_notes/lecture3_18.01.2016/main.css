@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+section{
+    width:50%;
+    float:left;
+    padding: 2rem;
+}
+section:first-child{
+    width:100%;
+    text-align: center;
+}
+section:nth-child(3){
+    float:right;
+    max-height: 16rem;
+    overflow: scroll;
+    border:1px solid #d4d4d4;
+}
+#msg{
+    line-height: 1.6;
+}
+section>video{
+    max-width: 80%;
+    margin: 1rem auto;
+}
+button{
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem 1rem;
+}
+footer{
+    clear: both;
+    padding: 1rem 2rem;
+}

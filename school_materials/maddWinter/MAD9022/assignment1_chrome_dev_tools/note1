@@ -1,0 +1,216 @@
+
+Chrome Developers Tool
+
+    Features
+        Edit page elements and styles in real time
+        Debug Javascript
+        Optimize with profilers
+
+
+
+1 - Elements: working with DOMs
+
+    Elements panel
+        left side: html elements
+            right click > inspect element >> highlighting the specific element in the element tree.
+            magnifier > elements in the web >>
+
+
+            double click > change the text >> you can change the element dynamically
+            right click > edit HTML >> you can change html elements
+            drag elements on the elements >> it changes the position of the elements.
+
+2. Elements: styles view
+
+        right side: styles view
+            -display css rules for active element
+            -enable/disable properties
+            -edit rules for pseudo-classes
+            -link directly to css source
+
+            check boxes: you can disable the properties
+            erasing values or properties: you can get rid of them in the effect of css
+            >> this is very powerful for debugging
+
+            + sign: add styles
+            next to + sign: you can select the status of an element and manipulate its styles.
+                            ex) :active, :hover, :focus, :visited things like this
+
+            click the color box > color swatch, you can select the color without writing the color
+
+3. Sources: edit files directly
+
+   Sources Panel
+       - modify application source files
+       - export changes
+       - track file versions
+
+       clicking the file name in the left side will open the source code of the file
+       after changingn the code, command + S will save the code into the browswer file now the original file.
+       revert button > that reverts all the changes
+
+       right click > save as > overwrite the original file
+       right click > Local Modifications >> in history section, it shows the changes made
+                                         apply original content >> undo it.
+
+4. Console: for javascript debugging
+       - interact with your app's views and scripts
+       - run javascript commands
+       - view log output
+
+       console.log(console) > console itself is a javascript object.
+       console.assert(1 == 1); >> undefined
+       console.assert(1 == 2); >> error
+       console.warn("Watch out!"); >> you can create a warning using the console's warn method.
+
+3.2 Examining exceptions
+
+    if you click the file name, then the console will show you the line number of the error
+
+3.3 Element Selector Shortcuts
+
+    $('#idName') is a built-in function in the console. //jQuery or any library overwrites it.
+    >> you can use $('#idName') instead of document.querySelector('idName')
+
+    ex) $('#delete') >> it gives you an array. >> $('#delete')[0]
+
+    inspect($('#delete')[0]): grab an element from a page and figure out where it is.
+    $0: the last history of the DOM selection
+
+    $0.remove(); >> it removes the DOM thing.
+
+4.1 Debugging JavaScript
+4.2 Pause on Exception
+
+    an error occurred > how can we confirm where this error comes from?
+
+    in the top right, there is a pause icon(circular)
+    > paused >> when hovering each variable, you can see its value.
+
+    minifying your javascript: will make it load more quickly in your browser,
+    but it will also make it more difficult to debug >> {} icon at the bottom will make the code
+    more readable.
+
+    hit the pause button again > when the error happens, it will lead you to the part where the exception
+    occurs.
+
+    breakpoint clicked > it will pause on that line
+
+    |> : resume button
+    ->
+    .  : step over button > steps over to the next line code.
+    |
+    v  : step into button > goes down to whatever function being called on that line.
+    A
+    |  : step out button >
+
+4.3 Local Storage
+
+    Resources > Local Storage
+                              key : value
+
+
+Find the list of events in the Local Storage section of the Resources panel. In the list of keys and values, change the "name" of the "Build Robot" event to "Build Death Ray".
+// done
+Now that we have updated the data in Local Storage, force the event list to refresh by calling the Calendar.displayToday() method from the console.
+// in the console, Calendar.displayToday();
+
+5.1 The Network Tab
+
+Network
+
+    - Resource info - size, type, etc
+    - Server response details
+    - Timeline of network requests
+
+    Any given web page that you load is made up of a bunch of network requests; html, javascript, style sheets, images, ajax
+        >> each of these network requests,
+                the faster they happen, more responsive your web page is going to feel
+
+    What Dev Tool provides?
+     >> Timeline panel: helps you identify bottlenecks in these network requests
+
+        in the console,
+        Network tab
+            // to see the network panel in action, call it up and refresh the browser
+
+            columns // from left to right
+
+                name: name of each resource
+                method: http methods used to get it // GET, POST
+                status: response status code // returns from the server. 304(Not Modified)
+                                             // 304 Not Modified means that my browser has already downloaded this request before
+                                                and it has a local or cached copy that it's going to load up instead of downloading it again
+                                                // google it
+                type: the file type of the response
+                initiator: what initiated the request, in case we need to track that down later
+                size: the size of the file
+                time: how long it took
+                timeline: shows when each resource was requested and when it finished downloading // over on the right side, like a little waterfall
+
+
+    To reload all the resources: hold down the shift key and click refresh.
+
+        // will redownload everything
+        // at the bottom, you can see how long it took to download all the resources.
+        // in the status column, OK means that the resources were all downloaded
+
+    To disable the cache // for debugging the performance of your web page
+
+        1. by going to the File menu and selecting New Incognito Window,
+           >> use a fresh cache, won't use any cookies that is stored
+
+        2. by clicking the gear icon and opening ip the DevTools Settings
+           >> selecting the "Disable Cache check box"
+
+
+
+    waterfall(timeline)
+        The translucent bar shows the latency of our request
+        // from the request to download
+
+        end point: completion of download
+        color: file type
+            html: blue
+            js: orange
+            stylesheet: green
+            image: purple
+
+
+5.2 Network Performance
+
+    web page speed > extension
+
+        minifying javascript : increasing the loading speed
+        combining js files into one : only one network request.
+
+        closure library by google is good
+
+            app_min.js (minified)
+
+
+5.3 Removing Unneeded Requests
+
+failed image > red color in the panel
+script asynchro?
+
+
+5.4 Serving Correctly Sized Images
+png is better for icons
+
+6.1 Rendering Performance
+
+Frames: play by play
+    html loading
+    js execution
+    styling
+    painting to screen
+
+
+7.1 memory profiling
+        peaks > memory leaks
+
+7.2 Pinpointing Leaks
+    >> heap snapshots
+
+    profile > take heep snapshot > take snapshot

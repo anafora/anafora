@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="main.css">
+
+</head>
+<body>
+    <h1> Media Test Page </h1>
+
+    <audio controls>
+        <source src="" type="audio/mpeg">
+        <source src="" type="audio/ogg">
+        <!--the second one is fallback. the first one failure triggers the second line-->
+        <!--the play looks different depending on browsers. However, if you like to make it look consistent, you should make your own player-->
+    </audio>
+
+    <video width="426" height="240" controls>
+        <!--instead of controls, if you put autoplay, then you don't have a function to stop or play the video-->
+        <source src="testVideo.mp4" type="video/mp4">
+        <source src="testVideo.ogv" type="video/ogv">
+        <track src="captions/closed-captions.vtt"
+               srclang="en-ca" kind="captions" label="">
+        <!--subtitles!-->
+    </video>
+
+
+
+</body>
+</html>
+
+<!--
+
+video::cue {
+    background: transparent;
+    color: white;
+}
+
+
+
+
+-->

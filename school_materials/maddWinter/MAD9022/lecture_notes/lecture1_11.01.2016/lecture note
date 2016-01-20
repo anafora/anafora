@@ -1,0 +1,55 @@
+
+if(statement) is to check
+    either 0 or !0
+        >> if it exists or it doesn't exist
+
+if()
+    obj == undefined
+
+try {
+
+} catch (e) {
+
+}
+
+
+    ex)
+        //var mol = 42;
+        //var result = func(mol);
+
+        // func does not exist
+
+        try{
+            //do something
+            var mol = 42;
+            var result = func(mol);
+
+            if(result > 0)
+                doA();
+            else
+                doB(); // this is shortcut if there is only one line.
+                       // If professionally written, not recommended
+                       // because if someone writes something on top of it and forget to put {},
+                       // then it goes wrong.
+        }
+        catch(e) {
+            console.log("Name: " + e.name + " Message: " + e.message);
+            console.log(e);
+        }
+
+        //message is better for debugging
+        // name property is the error type
+
+// the point is that the website is still working even if my code goes wrong at some part.
+// any file operation will use try and catch block because any of it can fail.
+
+
+** tpyeof
+
+    var s = "text";
+    var n = 42;
+    var b = true;
+
+    console.info(typeof s);
+
+** minify >> crams it all together

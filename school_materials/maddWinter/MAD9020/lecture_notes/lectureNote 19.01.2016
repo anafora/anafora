@@ -1,0 +1,36 @@
+
+
+1. collecting information, which is needed for the Winterlude app.
+2. making a map for it
+
+mind42.com
+
+Exercise:
+
+Using the guidelines in this week's lesson
+
+A) Create an information architecture for Winterlude.
+
+    It needs to contain the following content:
+
+        List of Events (schedule view, alphabetical list, sorted by category)
+        Event details
+        List of locations
+        Map view of locations
+        What's on now
+        Official hotels
+        Official restaurants
+        Shuttle information (stops, routes, schedules)
+        General information
+        Sponsors
+        Canal Services
+        Canal ice conditions
+
+B) Take the IA you have created, and sketch out a navigation model that supports it.
+
+    Sketch:
+
+        The main page/landing page where the app would open
+        How users will access the navigation model you've chosen
+        How users sill select/navigate to the desired item
+        The screen/page where they end up

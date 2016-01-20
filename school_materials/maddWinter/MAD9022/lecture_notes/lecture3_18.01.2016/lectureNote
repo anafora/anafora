@@ -1,0 +1,29 @@
+
+Javasctript to create video element and video player.
+
+ve.canPlayType(mp4);
+>> "maybe"(<50%), "probably"(>50%), ""
+
+  if "", it's not going to play.
+
+  if "maybe" and "probably"?,
+
+
+
+
+
+ rate: speed
+ volume: 0<x<1
+ // be careful, not violating the range
+
+mp4 goes with every browser but in case of an old browser, use webm
+
+ev.preventDefault();
+
+// some event handlers have default events. For good coding practice,
+
+
+text.indexOf("Some Text") = 5
+
+if not possible to find it, then it returns -1
+

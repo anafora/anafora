@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Scripting Videos</title>
+    <!--    Remove Chrome Developer Tools shows favicon 404 error in Brackets LivePreview-->
+    <link rel="icon" href="data:;base64,iVBORwOKGO=" />
+
+    <link rel="stylesheet" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+<div class="wrapper">
+    <section>
+        <video poster="" id="videoElement" autoplay>
+            <source src="video/bbb-1200px.mp4" type="video/mp4" />
+            <source src="video/Big_Buck_Bunny_Trailer.webm" type="video/webm" />
+            HTML5 Video is required for this example.
+            <a href="video/bbb-1200px.mp4">Download the video</a> file.
+        </video>
+    </section>
+    <section>
+        <button id="btnPlayPause">Play | Pause</button>
+        <button id="btnRestart">Restart</button>
+        <button id="btnBack">Back 5s</button>
+        <button id="btnForward">Forward 5s</button>
+        <button id="btnMuteToggle">Mute Off</button>
+        <button id="btnVolUP">Volume Up</button>
+        <button id="btnVolDOWN">Volume Down</button>
+        <button id="btnLoopToggle">Loop Off</button>
+        <button id="btnSpeedUP">Speed Up</button>
+        <button id="btnSlowDOWN">Slow Down</button>
+        <button id="btnInfo">Information</button>
+        <button id="btnClear">Clear</button>
+        <button id="btnSwitch">Switch file</button>
+    </section>
+    <section>
+        <p id="msg"></p>
+    </section>
+    <footer>
+        <p><a href="https://www.w3.org/2010/05/video/mediaevents.html">https://www.w3.org/2010/05/video/mediaevents.html</a></p>
+    </footer>
+</div>
+</body>
+</html>

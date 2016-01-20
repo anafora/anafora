@@ -1,0 +1,293 @@
+SQL Lesson 01: Relational databases and SQL
+
+what a relational database is
+what a structured query language is
+history of relational databases and SQL.
+
+
+SQL?
+
+    Structured Query Language
+
+    Database = data + data + data + data(obj) + ...
+
+    You want to talk to the database
+        - Retrieve data
+        - Insert data
+        - Modify data
+        - Remove data
+
+        How do you talk? >> SQL
+            to talk to the database, you need to have a tool, "Query Tool": E.g. Toad, iSQL Plus, SQL Navigator
+
+            Query Tool
+        You              ---- SQL ----   Database
+            Application
+
+
+Database Tables
+
+    Table // just like excel sheets, presenting entity
+        example with contacts
+
+        columns: represent attribute of contact, such as, id, first name, last name, phone
+        rows: values
+
+History of SQL
+    1. Flat File System
+        // Proprietary Protocol
+        file 1
+            department record 1
+            employee record 1
+            employee record 2
+            department record 2
+            employee record 3
+
+        file 2
+            sales record 1
+
+       pros: perform better, much faster
+       cons: with multiple data >> there is no define structure.
+             How are you going to retrieve data? proprietary logic is case by case(company by compnay) >> when new programers come,
+             they have to learn everything new again
+
+    2. Relational Database
+
+        -Employee  -Department  -Sales
+
+        data structured in the proper structure.
+
+    3.
+
+    In early 1970s, E.F. Codd created relational data model and DSL/Alpha language
+        how to store data in the standarded fashion.
+
+    System/R project was launched by IBM. The team developed simplified version of DSL called SQUARE.
+    DSL SQUARE became SEQUEL, which became SQL later.
+
+    Oracle Corporation was founded in 1977. The company created relational database.
+    Today Oracle Database is the most popular relational database in the market.
+
+
+SQL Lesson 02: Terms and Keywords for SQL
+
+    the most commonly used terms and keywords for relational databases
+
+
+    Database:
+        A container (a file, or set of files) used to store "organized" data.
+        Databases store information in "tables".
+
+    Table:
+        A structured list of related data grouped together.
+        Tables consist of columns and rows.
+        **** One or more tables can exist in a database. ****
+
+    Schema:
+        Information stored about
+                           the database, table layout, and its properties.
+
+    Column:
+        Data arranged along the vertical axis of the table, each of which store a single data type.
+        All the entries for each column must be of that data type.
+
+    Field: //?
+        It is common to use "field" synonymously with "column";
+        however, "field" is also often used to describe the data in a specific column of a specific row.
+
+    Data type:
+        A specified type of data, assigned to each column.
+        Data types are used to permit/restrict that type of data entered into the column.
+
+    Primary Key:
+        A column (or set of columns) whose values uniquely identify every row entered into the table.
+
+    Foreign Key:
+        A column in a table which solely contains values that come from a primary key in another table.
+
+    Row:
+        A horizontal set of data in a database table.
+        Rows contain the information inserted in one or more columns.
+        There can be zero or more rows in a table.
+
+    Record:
+        A single row from a database table, however not all of the information in the columns need to be specified
+        (i.e. they can be left NULL).
+
+    Recordset:
+        A group of records retrieved from a database table.
+
+    SQL:
+        Structure Query Language: the programming language of relational databases.
+
+    Query:
+        A SQL statement sent to the database to retrieve or alter information.
+
+
+
+SQL Lesson 03: A list of MySQL data types
+
+    MySQL data type
+        text
+        number
+        data/time
+        binary
+
+    most commonly recognized data type groupings:
+        string (text and binary),
+        number,
+        date/time.
+
+        // In this class, we will count text and binary as their own types
+           because of how they are used.
+
+
+
+        Data types
+            - permit (and restrict) a column to accept only one type of data for storage.
+            - directly related to the speed and performance of your database.
+
+            *** to make the minimum length of time to query the database,
+                >> choose the smallest possible data size for each column.
+
+                Longest possible value?
+
+                ex)
+                    store the year '2012' in a coloum, which data type to use?
+
+                    TINYINT ? X // it only stores values from 0 to 255
+                    SMALLINT ? yes possible // it stores numeric values from 032,768 to 32,767
+
+                    // however, you don't necessarily need to store the year as a number and don't need that much space
+
+                    CHAR ? yes possible // 4 bytes
+
+                    YEAR ? the best. //SQL data type
+
+                    SQL data types: http://dev.mysql.com/doc/refman/5.7/en/data-types.html (Links to an external site.)
+
+
+Text/String Data Types
+
+    CHAR(size):
+        Holds a fixed length string (can contain letters, numbers, and special characters).
+        The fixed size is specified in parenthesis. Can store up to 255 characters.
+
+    VARCHAR(size):
+        Holds a variable length string (can contain letters, numbers, and special characters).
+        The maximum size is specified in parenthesis. Can store up to 255 characters.
+        // Note: If you put a greater value than 255 it will be "converted" to a TEXT type.
+
+    TEXT:
+        Holds a string with a maximum length of 65,535 characters.
+
+    TINYTEXT:
+        The same as VARCHAR. Can store up to 255 characters.
+
+    MEDIUMTEXT:
+        Can store up to 16 million characters.
+
+    LONGTEXT:
+        Can store over 4 trillion characters.
+    ENUM:
+        Let you enter a list of possible values.
+        You can list up to 65535 values in an ENUM list.
+        // Note: The values are sorted in the order you enter them.
+        You enter the possible values in this format: ENUM('X','Y','Z')
+
+    SET:
+        Similar to ENUM except that SET may contain up to 64 list items.
+        One or more items can be picked from the list.
+
+Number Data Types
+
+    TINYINT(size):
+        A number between -128 and 127, or between 0 and 255 if UNSIGNED.
+        The maximum number of digits may be specified in parenthesis.
+
+    SMALLINT(size):
+        A number between -32,768 and 32,767, or between 0 and 65,535 if UNSIGNED.
+        The maximum number of digits may be specified in parenthesis.
+
+    MEDIUMINT(size):
+        A number between -8,388,608 and 8,388,607, or 0 and 16,777,215 if UNSIGNED.
+        The maximum number of digits may be specified in parenthesis.
+
+    INT(size):
+        A number between -2,147,483,648 and 2,147,483,647, or between 0 and 4,294,967,295 if UNSIGNED.
+        The maximum number of digits may be specified in parenthesis.
+
+    BIGINT(size):
+        A number between -9,223,372,036,854,775,808 and 9,223,372,036,854,775,807, or 0 and 18,446,744,073,709,551,615 if UNSIGNED.
+        The maximum number of digits may be specified in parenthesis
+
+    FLOAT(size,d):
+        A small (4-byte) number with a floating decimal point – numbers get rounded off.
+        The maximum number of digits may be specified in the size parameter.
+        The maximum number of digits to the right of the decimal point is specified in the 'd' parameter.
+
+    DOUBLE(size,d):
+        A large (8-byte) number with a floating decimal point.
+        The maximum number of digits may be specified in the size parameter.
+        The maximum number of digits to the right of the decimal point is specified in the 'd' parameter.
+
+    DECIMAL(size,d):
+        A DOUBLE stored as a string, allowing for a fixed decimal point (no rounding).
+        The maximum number of digits may be specified in the size parameter.
+        The maximum number of digits to the right of the decimal point is specified in the 'd' parameter.
+
+
+Date/Time Data Types
+
+    DATE():
+        A date. Format: YYYY-MM-DD
+            // Note: The supported range is from '1000-01-01' to '9999-12-31'
+
+    DATETIME():
+        A date and time combination. Format: YYYY-MM-DD HH:MM:SS
+            // Note: The supported range is from '1000-01-01 00:00:00' to '9999-12-31 23:59:59'
+
+    TIMESTAMP():
+        A timestamp. TIMESTAMP values are stored as the number of seconds since the Unix epoch ('1970-01-01 00:00:00' UTC).
+        Format: YYYY-MM-DD HH:MM:SS
+            // Note: The supported range is from '1970-01-01 00:00:01' UTC to '2038-01-09 03:14:07' UTC
+
+    TIME():
+        A time. Format: HH:MM:SS
+            // Note: The supported range is from '-838:59:59' to '838:59:59'
+
+    YEAR():
+        A year in two-digit or four-digit format.
+            // Note: Values allowed in four-digit format: 1901 to 2155.
+                     Values allowed in two-digit format: 70 to 69, representing years from 1970 to 2069.
+
+
+
+Binary Data Types
+
+    TINYBLOB:
+        For BLOBs (Binary Large OBjects).
+        Holds up to 255 bytes of data.
+
+    BLOB:
+        For BLOBs (Binary Large OBjects).
+        Holds up to 65,535 bytes of data.
+
+    MEDIUMBLOB:
+        For BLOBs (Binary Large OBjects). H
+        olds up to 16,777,215 bytes of data.
+
+    LONGBLOB:
+        For BLOBs (Binary Large OBjects).
+        Holds up to 4,294,967,295 bytes of data.
+
+    BINARY(size):
+        Holds a fixed length string of binary data.
+        The fixed size is specified in parenthesis.
+        Can store up to 255 bytes. Similar to CHAR, but for binary data.
+
+    VARBINARY(size):
+        Holds a variable length string of binary data.
+        The maximum size is specified in parenthesis.
+        Can store up to 255 bytes Similar to VARCHAR, but for binary data.
+

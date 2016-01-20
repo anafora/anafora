@@ -1,0 +1,34 @@
+
+PHP
+
+variables:  a dollar-sign ($) directly followed by the variable name.
+    $name = "Jon";
+
+    $name = "Seb";  //string
+    $age = 112;  //number
+    $alive = false;  //boolean
+    $friends = array("Eric", "Lisa", "Tom", "Anna");
+
+Strings
+    // php is to help create web content and therefore has some useful functionality to manipulate text string data.
+
+    . works as + when it comes to binding strings
+        $fullname = "Jimbo" . " " . "Jones";
+        // var fullname = "Jimbo" + " " + "Jones"; in javascript
+
+    "" and '' do different things.
+
+        echo "<p>Your teacher is " . $teacher . "</p>";
+            // <p>Your teacher is Albert Einstein</p>
+            // echoing out" content
+
+        echo "<p>Your teacher is $teacher</p>";
+            // <p>Your teacher is Albert Einstein</p>
+
+        echo '<p>Your teacher is ' . $teacher . '</p>';
+            // <p>Your teacher is Albert Einstein</p>
+
+        echo '<p>Your teacher is $teacher</p>';
+            // <p>Your teacher is $teacher</p>
+
+    Double and single quotes do different things: if you place a variable name like $fullname inside double quotes, the PHP interpreter will recognize it as a variable; if you place the same variable inside single quotes, PHP will ignore the variable and see it as just text.
