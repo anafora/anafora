@@ -9,8 +9,8 @@ function init() {
     jq.addEventListener("load", loadCount);
     jq.setAttribute("src", "//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js");
     document.querySelector("head").appendChild(jq);
-
 }
+//upload jQuery library
 
 function loadCount() {
     this.count = 0;
@@ -31,14 +31,21 @@ function callAJAX(url) {
 
     if (shopifyData) {
         alert("!");
+        sortOut();
         collectItems();
     } else {
         alert("no data");
     }
 }
 
-function collectItems() {
+function sortOut() {
+    var pants
+    window.productsByType =
+}
 
+function collectItems() {
+    // make an array that stores all the names of the 'product_type's
+    // make an array that sorts out products by product_types.
     var tempArr = shopifyData.products;
     console.log(tempArr);
 
@@ -55,6 +62,9 @@ function collectItems() {
 
     calWeights();
 }
+
+// document.onload function, if the first page, it displays items in a certain format.
+//
 
 function calWeights() {
     var maxWeight = 100000;
@@ -127,4 +137,13 @@ function calWeights() {
     }
 
     document.body.innerHTML += "The total Price is " + (keyboardPrice + computerPrice);
+}
+
+function qunatityButton(ev) {
+    var className = ev.target.className;
+
+}
+
+function displayItems(type) {
+
 }

@@ -6,48 +6,42 @@
     <meta name="description" content="video">
     <meta name="keywords" content="html5 video tag">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <!--The initial-scale=1.0 part sets the initial zoom level when the page is first loaded by the browser.-->
-    <!--reference: http://www.w3schools.com/css/css_rwd_viewport.asp -->
-    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
-    <link rel="stylesheet" href="main.css">
-    <script src="js/jquery.min.js"></script>
-    <script src="js/main.js"></script>
-    <script src="js/jquery.slides.min.js"></script>
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
     <div class="wrapper">
-        <div class="content">
-            <div class="video-banner video-banner__wrapper">
-                <video loop autoplay>
-                    <source type="video/mp4" src="https://s3.amazonaws.com/fancyfootageclips/website/vid/2015-06-05-tunnel.mp4" />
-                </video>
+    <!--wrapper starts-->
 
-                <div class="video-banner__overlay">
-                    <h3>Anafora</h3>
-                </div>
+        <!--video section-->
+        <div class="background-container video-overlay">
+            <video autoplay muted loop>
+                <source src="media/testVideo.ogv">
+            </video>
+            <div class="overlay">
+                <p>overlay</p>
             </div>
-            <div class="row">
-                <div class="col-md-6 image1 slides">
-                    <img src="media/1.JPG" alt="">
-                    <img src="media/2.JPG" alt="">
-                    <img src="media/3.JPG" alt="">
-                    <img src="media/4.JPG" alt="">
-                    <img src="media/5.JPG" alt="">
-                    <img src="media/6.JPG" alt="">
-                    <img src="media/7.JPG" alt="">
-                    <img src="media/8.JPG" alt="">
-                    <img src="media/9.JPG" alt="">
-                    <img src="media/10.JPG" alt="">
+        </div>
+
+        <!--columns-->
+        <div class="cols">
+            <h1>
+                Heading
+            </h1>
+            <div class="col-container">
+                <div class="col col-1">
+                    This is just a test paragraph in order to look more filled with text in the columns.
+                    I am heading to South Korea in order to get checked with a Korean doctor. Regardless of that, I would like
+                    to see Dr. Mohaney for follow-up check.
                 </div>
-                <div class="col-md-3 image2">
-                    <img src="media/col2/IMG_3706.JPG" alt="">
-                </div>
-                <div class="col-md-3 image3">
-                    <img src="media/col3/IMG_3705.JPG" alt="">
+                <div class="col col-2">
+                    This is just a test paragraph in order to look more filled with text in the columns.
+                    I am heading to South Korea in order to get checked with a Korean doctor. Regardless of that, I would like
+                    to see Dr. Mohaney for follow-up check.
                 </div>
             </div>
         </div>
-    </div>
 
+    <!--wrapper ends-->
+    </div>
 </body>
 </html>
