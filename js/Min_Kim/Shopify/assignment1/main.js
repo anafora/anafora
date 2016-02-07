@@ -31,20 +31,35 @@ function callAJAX(url) {
 
     if (shopifyData) {
         alert("!");
-        sortOut();
+        //sortOut();
         collectItems();
     } else {
         alert("no data");
     }
 }
-
-function sortOut() {
-    var pants
-    window.productsByType =
-}
+//
+//function sortOut() {
+//    var pants
+//    window.productsByType =
+//}
 
 function collectItems() {
-    // make an array that stores all the names of the 'product_type's
+
+    window.product_types = [];
+
+    for(var i = 0; i < shopifyData.products.length; i++) {
+        var name = shopifyData.products[i].product_type.toString();
+
+        if(product_types.indexOf(name) === -1) {
+            product_types.push(name);
+        }
+    }
+
+
+    console.log(product_types);
+    console.log(product_types.parse());
+
+    // Done: make an array that stores all the names of the 'product_type's
     // make an array that sorts out products by product_types.
     var tempArr = shopifyData.products;
     console.log(tempArr);

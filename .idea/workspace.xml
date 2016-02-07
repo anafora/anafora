@@ -2,298 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d798d32-cf96-4ceb-97af-ed925b511442" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/dist/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/font-awesome/css/font-awesome.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/school_materials/maddWinter/MAD9022/assignment2_html5_video/assignIndex.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/school_materials/maddWinter/MAD9022/assignment2_html5_video/css/main.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/school_materials/maddWinter/MAD9022/assignment2_html5_video/media/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/school_materials/maddWinter/MAD9022/assignment2_html5_video/nkn.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/school_materials/maddWinter/MAD9022/lecture_notes/21012016/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/school_materials/maddWinter/MAD9022/lecture_notes/21012016/main.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/dist/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/font-awesome/css/font-awesome.min.css" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/.bower.json" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/.bower.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/CHANGELOG.md" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/CHANGELOG.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/Gruntfile.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/Gruntfile.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/LICENSE" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/LICENSE" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/README.md" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/bower.json" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/bower.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/dist/css/bootstrap-theme.css" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/dist/css/bootstrap-theme.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/dist/css/bootstrap-theme.css.map" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/dist/css/bootstrap-theme.css.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/dist/css/bootstrap-theme.min.css" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/dist/css/bootstrap-theme.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/dist/css/bootstrap-theme.min.css.map" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/dist/css/bootstrap-theme.min.css.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/dist/css/bootstrap.css" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/dist/css/bootstrap.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/dist/css/bootstrap.css.map" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/dist/css/bootstrap.css.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/dist/css/bootstrap.min.css.map" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/dist/css/bootstrap.min.css.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/fonts/glyphicons-halflings-regular.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/fonts/glyphicons-halflings-regular.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/fonts/glyphicons-halflings-regular.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/dist/js/bootstrap.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/dist/js/bootstrap.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/dist/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/dist/js/bootstrap.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/dist/js/npm.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/dist/js/npm.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/grunt/.jshintrc" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/grunt/.jshintrc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/grunt/bs-commonjs-generator.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/grunt/bs-commonjs-generator.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/grunt/bs-glyphicons-data-generator.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/grunt/bs-glyphicons-data-generator.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/grunt/bs-lessdoc-parser.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/grunt/bs-lessdoc-parser.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/grunt/bs-raw-files-generator.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/grunt/bs-raw-files-generator.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/grunt/configBridge.json" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/grunt/configBridge.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/grunt/sauce_browsers.yml" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/grunt/sauce_browsers.yml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/js/.jscsrc" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/js/.jscsrc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/js/.jshintrc" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/js/.jshintrc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/js/affix.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/js/affix.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/js/alert.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/js/alert.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/js/button.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/js/button.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/js/carousel.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/js/carousel.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/js/collapse.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/js/collapse.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/js/dropdown.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/js/dropdown.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/js/modal.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/js/modal.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/js/popover.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/js/popover.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/js/scrollspy.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/js/scrollspy.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/js/tab.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/js/tab.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/js/tooltip.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/js/tooltip.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/js/transition.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/js/transition.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/less/.csscomb.json" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/less/.csscomb.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/less/.csslintrc" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/less/.csslintrc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/less/alerts.less" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/less/alerts.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/less/badges.less" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/less/badges.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/less/bootstrap.less" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/less/bootstrap.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/less/breadcrumbs.less" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/less/breadcrumbs.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/less/button-groups.less" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/less/button-groups.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/less/buttons.less" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/less/buttons.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/less/carousel.less" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/less/carousel.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/less/close.less" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/less/close.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/less/code.less" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/less/code.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/less/component-animations.less" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/less/component-animations.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/less/dropdowns.less" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/less/dropdowns.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/less/forms.less" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/less/forms.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/less/glyphicons.less" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/less/glyphicons.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/less/grid.less" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/less/grid.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/less/input-groups.less" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/less/input-groups.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/less/jumbotron.less" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/less/jumbotron.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/less/labels.less" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/less/labels.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/less/list-group.less" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/less/list-group.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/less/media.less" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/less/media.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/less/mixins.less" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/less/mixins.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/less/mixins/alerts.less" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/less/mixins/alerts.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/less/mixins/background-variant.less" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/less/mixins/background-variant.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/less/mixins/border-radius.less" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/less/mixins/border-radius.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/less/mixins/buttons.less" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/less/mixins/buttons.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/less/mixins/center-block.less" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/less/mixins/center-block.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/less/mixins/clearfix.less" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/less/mixins/clearfix.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/less/mixins/forms.less" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/less/mixins/forms.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/less/mixins/gradients.less" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/less/mixins/gradients.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/less/mixins/grid-framework.less" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/less/mixins/grid-framework.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/less/mixins/grid.less" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/less/mixins/grid.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/less/mixins/hide-text.less" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/less/mixins/hide-text.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/less/mixins/image.less" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/less/mixins/image.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/less/mixins/labels.less" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/less/mixins/labels.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/less/mixins/list-group.less" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/less/mixins/list-group.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/less/mixins/nav-divider.less" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/less/mixins/nav-divider.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/less/mixins/nav-vertical-align.less" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/less/mixins/nav-vertical-align.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/less/mixins/opacity.less" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/less/mixins/opacity.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/less/mixins/pagination.less" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/less/mixins/pagination.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/less/mixins/panels.less" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/less/mixins/panels.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/less/mixins/progress-bar.less" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/less/mixins/progress-bar.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/less/mixins/reset-filter.less" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/less/mixins/reset-filter.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/less/mixins/reset-text.less" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/less/mixins/reset-text.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/less/mixins/resize.less" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/less/mixins/resize.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/less/mixins/responsive-visibility.less" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/less/mixins/responsive-visibility.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/less/mixins/size.less" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/less/mixins/size.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/less/mixins/tab-focus.less" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/less/mixins/tab-focus.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/less/mixins/table-row.less" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/less/mixins/table-row.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/less/mixins/text-emphasis.less" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/less/mixins/text-emphasis.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/less/mixins/text-overflow.less" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/less/mixins/text-overflow.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/less/mixins/vendor-prefixes.less" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/less/mixins/vendor-prefixes.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/less/modals.less" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/less/modals.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/less/navbar.less" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/less/navbar.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/less/navs.less" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/less/navs.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/less/normalize.less" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/less/normalize.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/less/pager.less" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/less/pager.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/less/pagination.less" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/less/pagination.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/less/panels.less" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/less/panels.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/less/popovers.less" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/less/popovers.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/less/print.less" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/less/print.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/less/progress-bars.less" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/less/progress-bars.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/less/responsive-embed.less" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/less/responsive-embed.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/less/responsive-utilities.less" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/less/responsive-utilities.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/less/scaffolding.less" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/less/scaffolding.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/less/tables.less" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/less/tables.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/less/theme.less" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/less/theme.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/less/thumbnails.less" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/less/thumbnails.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/less/tooltip.less" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/less/tooltip.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/less/type.less" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/less/type.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/less/utilities.less" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/less/utilities.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/less/variables.less" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/less/variables.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/less/wells.less" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/less/wells.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/nuget/MyGet.ps1" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/nuget/MyGet.ps1" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/nuget/bootstrap.less.nuspec" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/nuget/bootstrap.less.nuspec" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/nuget/bootstrap.nuspec" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/nuget/bootstrap.nuspec" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/package.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/package.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/bootstrap/package.json" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/bootstrap/package.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/font-awesome/.bower.json" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/font-awesome/.bower.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/font-awesome/.gitignore" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/font-awesome/.gitignore" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/font-awesome/.npmignore" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/font-awesome/.npmignore" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/font-awesome/HELP-US-OUT.txt" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/font-awesome/HELP-US-OUT.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/font-awesome/bower.json" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/font-awesome/bower.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/font-awesome/css/font-awesome.css" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/font-awesome/css/font-awesome.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/font-awesome/css/font-awesome.css.map" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/font-awesome/css/font-awesome.css.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/font-awesome/fonts/FontAwesome.otf" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/font-awesome/fonts/FontAwesome.otf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/font-awesome/fonts/fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/font-awesome/fonts/fontawesome-webfont.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/font-awesome/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/font-awesome/fonts/fontawesome-webfont.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/font-awesome/fonts/fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/font-awesome/fonts/fontawesome-webfont.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/font-awesome/fonts/fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/font-awesome/fonts/fontawesome-webfont.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/font-awesome/fonts/fontawesome-webfont.woff2" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/font-awesome/fonts/fontawesome-webfont.woff2" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/font-awesome/less/animated.less" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/font-awesome/less/animated.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/font-awesome/less/bordered-pulled.less" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/font-awesome/less/bordered-pulled.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/font-awesome/less/core.less" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/font-awesome/less/core.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/font-awesome/less/fixed-width.less" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/font-awesome/less/fixed-width.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/font-awesome/less/font-awesome.less" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/font-awesome/less/font-awesome.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/font-awesome/less/icons.less" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/font-awesome/less/icons.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/font-awesome/less/larger.less" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/font-awesome/less/larger.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/font-awesome/less/list.less" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/font-awesome/less/list.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/font-awesome/less/mixins.less" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/font-awesome/less/mixins.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/font-awesome/less/path.less" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/font-awesome/less/path.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/font-awesome/less/rotated-flipped.less" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/font-awesome/less/rotated-flipped.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/font-awesome/less/stacked.less" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/font-awesome/less/stacked.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/font-awesome/less/variables.less" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/font-awesome/less/variables.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/font-awesome/scss/_animated.scss" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/font-awesome/scss/_animated.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/font-awesome/scss/_bordered-pulled.scss" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/font-awesome/scss/_bordered-pulled.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/font-awesome/scss/_core.scss" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/font-awesome/scss/_core.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/font-awesome/scss/_fixed-width.scss" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/font-awesome/scss/_fixed-width.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/font-awesome/scss/_icons.scss" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/font-awesome/scss/_icons.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/font-awesome/scss/_larger.scss" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/font-awesome/scss/_larger.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/font-awesome/scss/_list.scss" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/font-awesome/scss/_list.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/font-awesome/scss/_mixins.scss" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/font-awesome/scss/_mixins.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/font-awesome/scss/_path.scss" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/font-awesome/scss/_path.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/font-awesome/scss/_rotated-flipped.scss" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/font-awesome/scss/_rotated-flipped.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/font-awesome/scss/_stacked.scss" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/font-awesome/scss/_stacked.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/font-awesome/scss/_variables.scss" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/font-awesome/scss/_variables.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/font-awesome/scss/font-awesome.scss" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/font-awesome/scss/font-awesome.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/.bower.json" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/.bower.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/AUTHORS.txt" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/AUTHORS.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/LICENSE.txt" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/LICENSE.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/README.md" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/bower.json" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/bower.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/dist/jquery.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/dist/jquery.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/dist/jquery.min.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/dist/jquery.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/dist/jquery.min.map" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/dist/jquery.min.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/.jshintrc" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/.jshintrc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/ajax.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/ajax.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/ajax/jsonp.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/ajax/jsonp.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/ajax/load.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/ajax/load.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/ajax/parseJSON.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/ajax/parseJSON.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/ajax/parseXML.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/ajax/parseXML.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/ajax/script.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/ajax/script.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/ajax/var/location.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/ajax/var/location.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/ajax/var/nonce.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/ajax/var/nonce.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/ajax/var/rquery.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/ajax/var/rquery.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/ajax/xhr.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/ajax/xhr.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/attributes.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/attributes.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/attributes/attr.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/attributes/attr.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/attributes/classes.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/attributes/classes.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/attributes/prop.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/attributes/prop.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/attributes/support.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/attributes/support.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/attributes/val.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/attributes/val.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/callbacks.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/callbacks.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/core.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/core.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/core/access.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/core/access.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/core/init.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/core/init.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/core/parseHTML.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/core/parseHTML.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/core/ready.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/core/ready.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/core/support.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/core/support.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/core/var/rsingleTag.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/core/var/rsingleTag.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/css.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/css.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/css/addGetHookIf.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/css/addGetHookIf.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/css/adjustCSS.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/css/adjustCSS.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/css/curCSS.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/css/curCSS.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/css/defaultDisplay.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/css/defaultDisplay.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/css/hiddenVisibleSelectors.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/css/hiddenVisibleSelectors.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/css/showHide.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/css/showHide.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/css/support.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/css/support.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/css/var/cssExpand.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/css/var/cssExpand.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/css/var/getStyles.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/css/var/getStyles.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/css/var/isHidden.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/css/var/isHidden.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/css/var/rmargin.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/css/var/rmargin.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/css/var/rnumnonpx.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/css/var/rnumnonpx.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/css/var/swap.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/css/var/swap.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/data.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/data.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/data/Data.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/data/Data.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/data/accepts.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/data/accepts.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/data/support.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/data/support.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/data/var/acceptData.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/data/var/acceptData.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/data/var/dataPriv.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/data/var/dataPriv.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/data/var/dataUser.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/data/var/dataUser.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/deferred.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/deferred.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/deprecated.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/deprecated.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/dimensions.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/dimensions.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/effects.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/effects.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/effects/Tween.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/effects/Tween.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/effects/animatedSelector.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/effects/animatedSelector.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/effects/support.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/effects/support.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/event.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/event.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/event/ajax.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/event/ajax.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/event/alias.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/event/alias.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/event/focusin.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/event/focusin.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/event/support.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/event/support.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/event/trigger.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/event/trigger.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/exports/amd.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/exports/amd.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/exports/global.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/exports/global.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/intro.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/intro.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/jquery.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/jquery.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/manipulation.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/manipulation.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/manipulation/_evalUrl.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/manipulation/_evalUrl.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/manipulation/buildFragment.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/manipulation/buildFragment.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/manipulation/createSafeFragment.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/manipulation/createSafeFragment.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/manipulation/getAll.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/manipulation/getAll.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/manipulation/setGlobalEval.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/manipulation/setGlobalEval.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/manipulation/support.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/manipulation/support.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/manipulation/var/nodeNames.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/manipulation/var/nodeNames.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/manipulation/var/rcheckableType.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/manipulation/var/rcheckableType.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/manipulation/var/rleadingWhitespace.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/manipulation/var/rleadingWhitespace.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/manipulation/var/rscriptType.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/manipulation/var/rscriptType.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/manipulation/var/rtagName.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/manipulation/var/rtagName.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/manipulation/wrapMap.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/manipulation/wrapMap.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/offset.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/offset.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/outro.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/outro.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/queue.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/queue.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/queue/delay.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/queue/delay.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/selector-native.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/selector-native.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/selector-sizzle.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/selector-sizzle.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/selector.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/selector.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/serialize.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/serialize.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/support.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/support.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/traversing.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/traversing.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/traversing/findFilter.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/traversing/findFilter.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/traversing/var/dir.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/traversing/var/dir.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/traversing/var/rneedsContext.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/traversing/var/rneedsContext.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/traversing/var/siblings.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/traversing/var/siblings.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/var/arr.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/var/arr.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/var/class2type.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/var/class2type.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/var/concat.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/var/concat.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/var/deletedIds.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/var/deletedIds.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/var/document.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/var/document.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/var/documentElement.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/var/documentElement.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/var/hasOwn.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/var/hasOwn.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/var/indexOf.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/var/indexOf.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/var/pnum.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/var/pnum.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/var/push.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/var/push.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/var/rcssNum.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/var/rcssNum.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/var/rnotwhite.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/var/rnotwhite.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/var/slice.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/var/slice.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/var/support.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/var/support.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/var/toString.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/var/toString.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/bower_components/jquery/src/wrap.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/bower_components/jquery/src/wrap.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/npm-debug.log" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/npm-debug.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Min_Kim/Udemy_WeirdParts/frameworl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/school_materials/maddWinter/English/unit1 - presentation" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/index.html" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/main.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/Min_Kim/Udemy_WeirdParts/main.js" afterPath="$PROJECT_DIR$/js/Min_Kim/Udemy_WeirdParts/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/school_materials/maddWinter/MAD9022/assignment2_html5_video/css/main.css" afterPath="$PROJECT_DIR$/school_materials/maddWinter/MAD9022/assignment2_html5_video/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/school_materials/maddWinter/MAD9022/assignment2_html5_video/index.html" afterPath="$PROJECT_DIR$/school_materials/maddWinter/MAD9022/assignment2_html5_video/index.html" />
     </list>
     <ignored path="anafora.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -313,28 +28,46 @@
     <favorites_list name="anafora" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-31.875">
-              <caret line="51" column="32" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.781893">
-              <caret line="38" column="1" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/school_materials/maddWinter/MAD9022/assignment2_html5_video/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-24.375">
+                  <caret line="42" column="33" selection-start-line="42" selection-start-column="33" selection-end-line="42" selection-end-column="33" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/school_materials/maddWinter/MAD9022/assignment2_html5_video/css/main.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.34042552">
+                  <caret line="70" column="27" selection-start-line="70" selection-start-column="22" selection-end-line="70" selection-end-column="27" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/school_materials/maddWinter/MAD9022/assignment2_html5_video/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.70212764">
+                  <caret line="43" column="512" selection-start-line="43" selection-start-column="512" selection-end-line="43" selection-end-column="512" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -370,7 +103,6 @@
         <option value="$PROJECT_DIR$/school_materials/maddWinter/MAD9022/lecture_notes/lecture3_18.01.2016/lectureNote" />
         <option value="$PROJECT_DIR$/school_materials/maddWinter/MAD9022/lecture_notes/lecture3_18.01.2016/main.js" />
         <option value="$PROJECT_DIR$/school_materials/maddWinter/MAD9022/assignment2_html5_video/main.css" />
-        <option value="$PROJECT_DIR$/school_materials/maddWinter/MAD9022/assignment2_html5_video/index.html" />
         <option value="$PROJECT_DIR$/school_materials/maddWinter/MAD9022/assignment2_html5_video/js/main.js" />
         <option value="$PROJECT_DIR$/school_materials/maddWinter/MAD9020/modules/week2" />
         <option value="$PROJECT_DIR$/school_materials/maddWinter/MAD9020/lecture_notes/lectureNote 19.01.2016" />
@@ -381,10 +113,14 @@
         <option value="$PROJECT_DIR$/school_materials/maddWinter/MAD9022/assignment2_html5_video/css/main.cs.css" />
         <option value="$PROJECT_DIR$/school_materials/maddWinter/MAD9022/assignment2_html5_video/bower_components/jhj" />
         <option value="$PROJECT_DIR$/school_materials/maddWinter/MAD9022/assignment2_html5_video/nkn.html" />
-        <option value="$PROJECT_DIR$/school_materials/maddWinter/MAD9022/assignment2_html5_video/css/main.css" />
         <option value="$PROJECT_DIR$/school_materials/maddWinter/MAD9022/assignment2_html5_video/assignIndex.html" />
         <option value="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/index.html" />
+        <option value="$PROJECT_DIR$/js/Min_Kim/Udemy_WeirdParts/main.js" />
         <option value="$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/main.js" />
+        <option value="$PROJECT_DIR$/school_materials/maddWinter/English/unit1 - presentation" />
+        <option value="$PROJECT_DIR$/js/Min_Kim/Udemy_WeirdParts/frameworl" />
+        <option value="$PROJECT_DIR$/school_materials/maddWinter/MAD9022/assignment2_html5_video/css/main.css" />
+        <option value="$PROJECT_DIR$/school_materials/maddWinter/MAD9022/assignment2_html5_video/index.html" />
       </list>
     </option>
   </component>
@@ -394,9 +130,9 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="406" />
+    <option name="x" value="241" />
     <option name="y" value="23" />
-    <option name="width" value="1224" />
+    <option name="width" value="1189" />
     <option name="height" value="826" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -424,8 +160,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -434,228 +168,10 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="anafora" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="anafora" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="anafora" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="anafora" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="school_materials" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="maddWinter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="anafora" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="anafora" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="school_materials" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="maddWinter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MAD9022" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="anafora" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="anafora" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="school_materials" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="maddWinter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MAD9022" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lecture_notes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="anafora" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="anafora" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="school_materials" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="maddWinter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MAD9022" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lecture_notes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="21012016" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="anafora" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="anafora" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="school_materials" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="maddWinter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MAD9022" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assignment2_html5_video" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="anafora" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="anafora" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="school_materials" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="maddWinter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MAD9022" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assignment2_html5_video" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="anafora" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="anafora" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Min_Kim" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="anafora" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="anafora" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Min_Kim" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Shopify" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assignment1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="anafora" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="anafora" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -665,6 +181,8 @@
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -736,13 +254,12 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="406" y="23" width="1224" height="826" extended-state="0" />
+    <frame x="241" y="23" width="1189" height="826" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16666667" sideWeight="0.5" order="0" side_tool="true" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29352397" sideWeight="0.5" order="0" side_tool="true" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -754,26 +271,9 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19828407" sideWeight="0.5" order="0" side_tool="true" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -791,6 +291,20 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/js/Min_Kim/Udemy_WeirdParts/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/Min_Kim/fibonacci/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -820,13 +334,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/school_materials/maddWinter/MAD9022/assignment2_html5_video/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/school_materials/maddWinter/MAD9022/assignment2_html5_video/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -966,13 +473,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/school_materials/maddWinter/MAD9022/assignment2_html5_video/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30864197">
-          <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/school_materials/maddWinter/MAD9022/lecture_notes/lecture3_18.01.2016/lectureNote">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.14403293">
@@ -1005,191 +505,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.098684214">
           <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/school_materials/maddWinter/MAD9022/assignment2_html5_video/bower_components/jhj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.032894738">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#p#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#0;n#p#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#0;n#span#0;n#p#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#br#0;n#span#0;n#p#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#1;n#span#0;n#p#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#h3#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#0;n#h3#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#p#1;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#0;n#p#1;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#strong#0;n#span#0;n#p#1;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#a#0;n#span#0;n#p#1;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#a#1;n#span#0;n#p#1;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#a#2;n#span#0;n#p#1;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#p#2;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#0;n#font#0;n#p#2;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#a#0;n#span#0;n#font#0;n#p#2;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#a#1;n#span#0;n#font#0;n#p#2;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#p#3;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#0;n#p#3;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#p#4;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#0;n#p#4;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#strong#0;n#span#0;n#p#4;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#a#0;n#span#0;n#p#4;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#p#5;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#0;n#p#5;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#p#6;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#0;n#p#6;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#p#7;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#0;n#p#7;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#h3#1;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#0;n#h3#1;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#p#8;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#0;n#p#8;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#strong#0;n#span#0;n#p#8;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#p#9;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#0;n#p#9;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#p#10;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#0;n#p#10;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#p#11;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#0;n#p#11;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#p#12;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#0;n#p#12;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#p#13;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#0;n#p#13;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#p#14;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#0;n#p#14;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#a#0;n#span#0;n#p#14;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#p#15;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#0;n#p#15;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#em#0;n#span#0;n#p#15;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#p#16;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#0;n#p#16;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#p#17;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#0;n#p#17;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#h3#2;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#0;n#h3#2;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#p#18;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#0;n#p#18;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#p#19;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#0;n#font#0;n#p#19;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#a#0;n#span#0;n#font#0;n#p#19;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#p#20;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#0;n#p#20;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#p#21;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#0;n#p#21;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#p#22;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#0;n#p#22;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#p#23;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#0;n#p#23;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#p#24;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#0;n#p#24;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/school_materials/maddWinter/MAD9022/assignment2_html5_video/nkn.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2631579">
-          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-          <folding>
-            <element signature="n#style#0;n#p#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#0;n#p#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#0;n#span#0;n#p#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#br#0;n#span#0;n#p#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#1;n#span#0;n#p#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#h3#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#0;n#h3#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#p#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#0;n#p#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#strong#0;n#span#0;n#p#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#a#0;n#span#0;n#p#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#a#1;n#span#0;n#p#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#a#2;n#span#0;n#p#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#p#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#0;n#font#0;n#p#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#a#0;n#span#0;n#font#0;n#p#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#a#1;n#span#0;n#font#0;n#p#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#p#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#0;n#p#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#p#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#0;n#p#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#strong#0;n#span#0;n#p#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#a#0;n#span#0;n#p#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#p#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#0;n#p#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#p#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#0;n#p#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#p#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#0;n#p#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#h3#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#0;n#h3#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#p#8;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#0;n#p#8;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#strong#0;n#span#0;n#p#8;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#p#9;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#0;n#p#9;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#p#10;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#0;n#p#10;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#p#11;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#0;n#p#11;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#p#12;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#0;n#p#12;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#p#13;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#0;n#p#13;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#p#14;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#0;n#p#14;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#a#0;n#span#0;n#p#14;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#p#15;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#0;n#p#15;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#em#0;n#span#0;n#p#15;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#p#16;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#0;n#p#16;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#p#17;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#0;n#p#17;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#h3#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#0;n#h3#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#p#18;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#0;n#p#18;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#p#19;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#0;n#font#0;n#p#19;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#a#0;n#span#0;n#font#0;n#p#19;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#p#20;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#0;n#p#20;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#p#21;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#0;n#p#21;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#p#22;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#0;n#p#22;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#p#23;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#0;n#p#23;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#p#24;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#0;n#p#24;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/school_materials/maddWinter/MAD9022/assignment2_html5_video/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19736843">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/school_materials/maddWinter/MAD9022/assignment2_html5_video/assignIndex.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.3486842">
-          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/school_materials/maddWinter/MAD9022/assignment2_html5_video/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.375">
-          <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1197,7 +512,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.40625">
           <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1205,17 +519,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.16447368">
           <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/school_materials/maddWinter/MAD9022/assignment2_html5_video/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7565789">
-          <caret line="52" column="9" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
-          <folding>
-            <element signature="e#243#309#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1223,7 +526,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1231,7 +533,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1239,7 +540,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1247,7 +547,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1255,15 +554,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-31.875">
-          <caret line="51" column="32" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1271,7 +561,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1279,7 +568,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1287,7 +575,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1295,7 +582,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1303,14 +589,63 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/school_materials/maddWinter/English/unit1 - presentation">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.781893">
-          <caret line="38" column="1" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.08230453">
+          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/Min_Kim/Shopify/assignment1/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5106383">
+          <caret line="24" column="55" selection-start-line="24" selection-start-column="55" selection-end-line="24" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/Min_Kim/Udemy_WeirdParts/note3">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/Min_Kim/Udemy_WeirdParts/frameworl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="190" column="8" selection-start-line="190" selection-start-column="8" selection-end-line="190" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/Min_Kim/Udemy_WeirdParts/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/school_materials/maddWinter/MAD9022/assignment2_html5_video/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34042552">
+          <caret line="70" column="27" selection-start-line="70" selection-start-column="22" selection-end-line="70" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/school_materials/maddWinter/MAD9022/assignment2_html5_video/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.70212764">
+          <caret line="43" column="512" selection-start-line="43" selection-start-column="512" selection-end-line="43" selection-end-column="512" />
           <folding />
         </state>
       </provider>

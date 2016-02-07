@@ -2,12 +2,24 @@
  * Created by Min on 2015-12-22.
  */
 
+
+
+function greet(whattosay) {
+
+    return function(name) {
+        console.log(whattosay + ' ' + name);
+    }
+}
+
+// functions are objects; I can return them as values.
+
+greet('Hi')('Tony');
+
+// greet('Hi') invoking a function that returns a function. and then it takes the arg('Tony')
+
+
 //console.log("Init");
 //console.log(c);
-
-
-
-
 
 //var a = 0;
 //b();
@@ -94,14 +106,14 @@
 //
 //d.log();
 
-function Rabbit(adjective) {
-    this.adjective = adjective;
-    this.describeMyself = function() {
-        console.log("I am a " + this.adjective + " rabbit");
-    };
-}
-
-// now we can easily make all of our rabbits
-var rabbit1 = Rabbit("fluffy");
-var rabbit2 = new Rabbit("happy");
-var rabbit3 = new Rabbit("sleepy");
+//function Rabbit(adjective) {
+//    this.adjective = adjective;
+//    this.describeMyself = function() {
+//        console.log("I am a " + this.adjective + " rabbit");
+//    };
+//}
+//
+//// now we can easily make all of our rabbits
+//var rabbit1 = Rabbit("fluffy");
+//var rabbit2 = new Rabbit("happy");
+//var rabbit3 = new Rabbit("sleepy");
