@@ -1,0 +1,68 @@
+Canvas Element
+
+  HTML5 Canvas: a drawing surface
+    <canvas id="chart" width="600" height="400"></canvas>
+
+  In order to draw something on the Canvas we need to use Javascript.
+
+  1. get a reference to the canvas tag
+
+    var canvas = document.querySelector('#chart');
+
+  2. set the contect for what to draw; either 2d or 3d
+
+    var context = canvas.getContext('2d');
+
+  there are other links that demonstrate features of Canvas tag and javascript codes to manipulate the tag.
+
+
+Working with Images on the Canvas
+
+  Adding images to Canvas
+
+    <canvas id="myCanvas" width="600" height="400"></canvas>
+
+    <script>
+      var canvas = document.querySelector('#myCanvas');
+      var context = canvas.getContext('2d');
+      var img = document.createElement("img");
+       img.onload = function() {
+        context.drawImage(img, 50, 25);
+      };
+      img.src = 'http://localhost/images/sample.jpg';
+    </script>
+
+    // this script will create a new image.
+
+    the same thing could be done if the image was already on the webpage
+
+      <img id="myImg" src="images/sample.png" />
+
+      <script>
+      var canvas = document.querySelector("#myCanvas");
+      var context = canvas.getContext("2d");
+      var img = document.querySelector("#myImg");
+
+        img.onload = function( ){
+        context.drawImage("img", 50, 25);
+      }
+      </script>
+
+  games with graphics can be done without Flash when using the Canvas element.
+
+Text on Canvas
+
+  one common use for canvas: drawing graphs, charts, and other infographics.
+
+    context.font ='bold 12pt Arial'; // font property
+    context.fillText('The text we want', 100, 50); // fillText method that takes three arguments: text, x-axis, y-axis
+
+Basic Trigonometry for the Canvas
+
+  Basic Trigonometry
+
+
+
+
+
+

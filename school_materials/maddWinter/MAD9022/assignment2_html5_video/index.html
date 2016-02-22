@@ -10,12 +10,12 @@
 </head>
 <body>
     <div class="wrapper">
-    <!--wrapper starts-->
+<!--wrapper starts-->
 
-        <!--video section-->
+    <!--video section-->
         <div class="background-container video-overlay">
             <div class="video-container">
-            <video autoplay muted autoplay poster="media/3.jpg">
+            <video autoplay muted loop poster="media/3.jpg" class = "not-loaded">
                 <!-- video resources -->
                 <source src="media/korean_snack.webm">
                 <source src="media/korean_snack.mp4">
@@ -24,20 +24,22 @@
             </div>
 
             <div class="overlay">
+                <p id="text_loading" class="text_loading"> video loading </p>
                 <p>Gangjung</p>
             </div>
         </div>
-        <!--video section-->
+    <!--video section-->
 
 
-        <!--columns-->
+    <!--overlay transparent box-->
         <div class="box">
-
         </div>
+    <!--overlay transparent box-->
 
+    <!--columns-->
         <div class="cols">
             <h1>
-                Gangjeong (강정,强情)
+                Gangjeong (강정, 强情)
             </h1>
             <div class="col-container">
                 <div class="col">
@@ -45,8 +47,12 @@
                 </div>
             </div>
         </div>
-
-    <!--wrapper ends-->
+    <!--columns-->
     </div>
+<!--wrapper ends-->
+
+    <script>
+        function init(){var e=document.querySelector("video"),t=document.querySelector("#text_loading");e.onloadeddata=function(){e.classList.remove("not-loaded"),e.classList.add("loaded"),t.classList.remove("text_loading"),t.classList.add("text_loaded")}}document.addEventListener("DOMContentLoaded",init);
+    </script>
 </body>
 </html>

@@ -1,0 +1,83 @@
+NoSQL
+
+Intro to MongoDB
+    What is it
+    installation
+    basic shell commands
+
+    Keypoints
+        1. Documents instead of table
+            BSON that is similar to JSON.
+        2. NoSQL
+            non-Relational
+            // not able to use joins(SQL)
+            instead, use references that link between documents
+
+    Main advantages
+        easy schema iteration
+        scalabilitty & performance
+        object-oriented
+
+    Agile development
+        add to schema
+
+            User Schema
+                {
+                  first: "larry",
+                  last: "david"
+                }
+
+            if you want to update something, you can just do so
+
+                {
+                  first: "larry",
+                  last: "david",
+                  phone: 123-123-1234
+                }
+
+    Document vs Collection
+        document: a record in a MongoDB collection and the basic  unit of data in MongoDB.
+        Documents look like JSON objects but exist as BSON.
+
+        ex)
+
+            {
+              "_id" : ObjectId("234324234142jkk1242142948"),
+              "title" : "Article two",
+              "category" : "Education",
+              "body" : "this is the body",
+              "date" : ISODate("2015-06-29T23:24:15.212Z")
+            }
+
+            //looks like JSON
+
+        collection: a grouping of MongoDB documents. Typically, all documents
+                    in a collection have a similar or related purpose.
+
+        ex)
+
+            {
+             "_id" : ObjectId("234324234142jkk1242142948"),
+              "title" : "Article two",
+              "category" : "Education",
+              "body" : "this is the body",
+              "date" : ISODate("2015-06-29T23:24:15.212Z")
+            }
+            {
+             "_id" : ObjectId("123231231242jkk1242142948"),
+              "title" : "Article three",
+              "category" : "Health Care",
+              "body" : "this is the body",
+              "date" : ISODate("2015-06-29T23:24:15.212Z")
+
+            }
+
+            // storing two documents. each document has articles.
+
+
+
+
+
+
+
+

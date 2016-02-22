@@ -1,0 +1,342 @@
+Introduction to php
+
+PHP ex)
+
+    <!DOCTYPE html>
+    <html>
+      <head>
+        <link type='text/css' rel='stylesheet' href='style.css'/>
+        <title>PHP!</title>
+      </head>
+      <body>
+        <img src="http://i1061.photobucket.com/albums/t480/ericqweinstein/php-logo_zps408c82d7.png"/>
+        <div class="header"><h1>
+          <?php
+          $welcome = "Let's get started with PHP!";
+          echo $welcome;
+          ?>
+        </h1></div>
+        <p><strong>Generate a list:</strong>
+
+          <?php
+          for ($number = 1; $number <= 10; $number++) {
+            if ($number <= 9) {
+                echo $number . ", ";
+            } else {
+                echo $number . "!";
+            }
+          }; ?>
+        </p>
+        <p><strong>Things you can do:</strong>
+
+          <?php
+            $things = array("Talk to databases",
+            "Send cookies", "Evaluate form data",
+            "Build dynamic webpages");
+            foreach ($things as $thing) {
+                echo "<li>$thing</li>";
+            }
+
+            unset($thing);
+          ?>
+
+        </p>
+        <p><strong>This jumbled sentence will change every time you click Submit!<strong></p>
+        <p>
+          <?php
+            $words = array("the ", "quick ", "brown ", "fox ",
+            "jumped ", "over ", "the ", "lazy ", "dog ");
+            shuffle($words);
+            foreach ($words as $word) {
+                echo $word;
+            };
+
+            unset($word);
+          ?>
+        </p>
+      </body>
+    </html>
+
+    >> The PHP code is written in the <?php and ?>
+
+Why Learn PHP?
+
+    PHP runs on the same computer as the website you're visiting, which is known as the server.
+    >> access to all the information and files on that machine,
+       which allows it to construct custom HTML pages to send to
+       your browser, handle cookies, and run tasks or perform
+       calculations with data from that website.
+
+    echo function
+        <?php
+            echo "I am learning php!";
+        ?>
+
+        echo without ();
+        it should end with semicolon;
+
+    It is important to have the right extension; index.php instead of .html
+    >> it tell the php interpreter that there is php code in the file to evaluate.
+
+    Strings
+        a word or phrase between quotes.
+
+        concatenation operator: '.'
+        ex)
+            echo "Hello," . " " . "world" . "!";
+            = echo "Hello, world!";
+
+            // not "word" + "word"
+
+    Variables
+        it starts with $;
+        case-sensitive
+        ex)
+            $myName = "Beyonce";
+            $myAge = 32;
+
+        //no quotes around numbers unless you want to make them as strings.
+
+    Comparison operators
+
+        > Greater than
+        < Less than
+        <= Less than or equal to
+        >= Greater than or equal to
+        == Equal to
+        != Not equal to
+
+
+    If/else statement
+        same as those in Javascript
+
+    Switch statement
+        A switch statement comes in handy when you have a series of if/elseif/else statements with multiple expressions
+        that depend on the same value.
+
+        it works like if statement, if a condition is true, it executes a block of code.
+
+        switch syntax
+            a switch statement is similar to an if/elseif/else statement in that you can check
+            multiple conditions.
+
+            a switch statement = switch keyword + variable + {}
+                                   within {} = case blocks
+
+            ex)
+
+                $myNum = 2;
+
+                switch ($myNum) {
+                    case 1:
+                        echo "1";
+                        break;
+                    case 2:
+                        echo "2";
+                        break;
+                    case 3:
+                        echo "3";
+                        break;
+                    default:
+                        echo "None of the above";
+                }
+
+                // it checks if $myNum is same with 1 (from case 1), if yes
+                the block will be executed and break. If not, the next case will be checked.
+
+                if all the cases return false, then the default case gets executed.
+
+            Falling through.
+
+                if statement
+
+                    if ($i == 1 ||
+                        $i == 2 ||
+                        $i == 3) {
+                     echo '$i is somewhere between 1 and 3.';
+                    }
+
+                switch
+
+                    case 1:
+                    case 2:
+                    case 3:
+                        echo '$i is somewhere between 1 and 3.';
+                        break;
+
+            Two ways of creating a switch.
+                1.  curly-brace syntax
+
+                    switch ($i) {
+
+                    }
+
+                2. alternative syntax: this exists to provide syntactic sugar
+                        // https://en.wikipedia.org/wiki/Syntactic_sugar
+                                >> in computer science, syntactic sugar is syntax within a programming language
+                                   that is designed to make things easier to read or express.
+                    switch ($i):
+
+                    endswitch;
+
+                there is no difference when using the two; it only provides readability.
+                >> used when mixing HTML and PHP code in the same file.
+
+                    switch ($i):
+                        case 0:
+                            echo '$i is 0.';
+                            break;
+                        case 1:
+                        case 2:
+                        case 3:
+                        case 4:
+                        case 5:
+                            echo '$i is somewhere between 1 and 5.';
+                            break;
+                        case 6:
+                        case 7:
+                            echo '$i is either 6 or 7.';
+                            break;
+                        default:
+                            echo "I don't know how much \$i is.";
+                    endswitch;
+
+                    is same as
+
+                            switch ($i){
+                                case 0:
+                                    echo '$i is 0.';
+                                    break;
+                                case 1:
+                                case 2:
+                                case 3:
+                                case 4:
+                                case 5:
+                                    echo '$i is somewhere between 1 and 5.';
+                                    break;
+                                case 6:
+                                case 7:
+                                    echo '$i is either 6 or 7.';
+                                    break;
+                                default:
+                                    echo "I don't know how much \$i is.";
+                            }
+
+    Arrays
+        syntax
+            starting with $;
+            when declaring an array, use array();
+            ex)
+              $array = array("Egg", "Tomato", "Beans", 12 );
+
+            ex)
+              <?php
+              $myArray = array("do", "re", "mi");
+
+              echo $myArray[0]
+              // outputs "do"
+              ?>
+
+        accessing data in array
+
+            1. []
+            2. {}
+            both ways are equivalent
+
+        modifying array elements
+            adding an element
+
+            ex)
+              <?php
+              $myArray = array("red", "blue", "yellow");
+
+              echo $myArray[1];
+              // outputs "blue"
+
+              $myArray[1] = "green";
+
+              echo $myArray[1];
+              // outputs "green"
+              ?>
+
+            deleting an element
+
+            ex)
+              <?php
+                $array = array("red", "blue", "green");
+                unset($array[2]);
+              ?>
+              // deleting just an element
+
+              <?php
+                unset($array);
+              ?>
+              // deleting the entire array
+
+        for loop
+            pretty much same as the loop in javascript
+
+        foreach loop
+            used to iterate over each element of an object
+            can be used to update or print out every element in a list
+            // loop + arrays = for each
+
+        <?php
+          $numbers = array(1, 2, 3);
+
+          foreach($numbers as $item) {
+              echo $item;
+          }
+        ?>
+
+            //Between the parentheses, we use the $numbers as $item) syntax to tell PHP:
+              "For each thing in $numbers, assign that thing temporarily to the variable $item."
+
+        Looping the Loop
+
+            what about a situation where (due to randomness, perhaps) you don't know how many times
+            the loop should repeat? In that case, you can use a while loop.
+            >> "while loop"
+
+        while loop
+            will execute as long as a certain condition is true.
+
+            syntax
+
+              while(condition) {
+                //looped statements
+              }
+
+            avoid infinite loops!
+            ex)
+              while(2 > 1){
+                 // Code
+              }
+            >> $loopCond = false; can make the loop end
+            ex)
+              <?php
+                $loopCond = true;
+                while ($loopCond == true){
+            	  //Echo your message that the loop is running below
+            	  echo "<p>The loop is running</p>";
+            	  $loopCond = false;
+                }
+                echo "<p>And now it's done.</p>";
+              ?>
+
+            endwhile
+            ex)
+              while(condition):
+                // looped statements go
+
+              endwhile;
+
+              >> when embedded in html, loops that use this endwhile syntax
+                 can be more readable than the equivalent syntax involving curly braces.
+
+
+
+
+
+
+

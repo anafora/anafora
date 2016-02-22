@@ -1,0 +1,149 @@
+query string
+    ex)
+    ?q=games
+
+    '?': a special character used to signal the end of the site's url and the beginning of the query string sent to server script
+        https://github.com/search?utf8=✓&q=games
+
+        // query string starts with ? >> ?utf8~~. It has two parameters; q and utf8
+
+        the parameters and values will be stored in a super global associative array called $_GET.
+            associative array: works with paired values, which link a key to a value; 'q' to 'games'
+
+            The parameter names you choose are used to access $_GET array values.
+            In this case $_GET['ref'] and $_GET['q'] would be the values.
+
+    '&': (ampersand) a special character that is used to separate one parameter from the next.
+
+        name1=value1&name2=value2&name3=value3...
+
+        //parameter = value
+
+php creates a super global array called $_GET that allows us to access these paired values.
+    this associative array is automatically created when someone submits a query.
+
+    ex)
+    ?utf8=✓&q=games
+
+    echo $_GET["utf8"]; // this would output ✓.
+    echo $_GET["q"]; // this would output games.
+
+Pass Data to the Super Global Array $_GET
+
+    to send a query string to the $_GET array is using an anchor tag
+
+**video contents
+
+<?php
+
+1. does it exist? or "Has it been submitted"
+2. is it empty? or "does value == NULL"
+3. display back to user
+
+if (isset($_GET['day']) && isset($_GET['date']) && isset($_GET['year'])) {
+    echo "OK";
+
+    $day = $_GET['day'];
+    $date = $_GET['date'];
+    $year = $_GET['year'];
+
+    if (!empty($day) && !empty($date) && !empty($year)) {
+        echo 'OK';
+    } else {
+        echo 'Fill in all fields';
+    }
+}
+
+?>
+
+<form action="index.php" method="GET">
+    day: <br><input type="text" name="day"><br>
+    day: <br><input type="text" name="day"><br>
+    day: <br><input type="text" name="day"><br>
+    <input type="submit" value="Submit">
+</form>
+
+Generating Query Strings
+
+query strings can be generated using loops
+for ($i=0; $i<3; $i++) {
+    echo '<a href='
+}
+
+PHP Lesson 06: Data Handling using $_POST
+    Sending Data from a Form in PHP
+
+    $_POST: the super global associative array.
+            contains all the user input data from a submitted html form's 'post' parameter
+
+            when an html form is submitted using the post method,
+            all of the data the user field will be stored in the $_POST array
+
+            //its great for password
+
+
+    <?php
+
+    $match = 'pass123';
+
+    if (isset($_POST['password'])) {
+        $password = $_POST['password'];
+        if (!empty($password)) {
+            if ($password == $match) {
+              echo 'This is correct';
+            } else {
+              echo 'This is not correct';
+            }
+        }
+    }
+    echo $_POST['password'];
+
+    ?>
+
+    <form action="index.php" method="POST">
+
+        password: <br>
+        <input type="password" name="password"><br><br>
+        <input type="submit" value="Submit">
+
+    </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
